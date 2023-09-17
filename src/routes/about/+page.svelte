@@ -334,6 +334,7 @@
             </section>
 		</div>
 	</Scroller>
+	<div class='flourish-credit'><a href='https://flourish.studio/' target='_blank'>Created with flourish.studio (https://flourish.studio)</a></div>
 
 	<div class="content-header-two bookmark" in:fly={{ y: 50, duration: 2000, delay: 300 }}>Awards and recognition</div>
 	<div class="full-width-content-box" in:scale={{delay: 600, opacity: 0, duration: 1000}}>
@@ -648,5 +649,16 @@
 
 	.sub-content {
 		margin-top: 2em;
+	}
+
+	.flourish-credit {
+		width: max-content;
+		margin-left: 5%;
+		padding-left: 1em;
+		padding-right: 1em;
+		font-size: 1em;
+		color: #FFFFFF;
+		background-color: #000000;
+		border-radius: 0em 0em 3em 3em;
 	}
 </style>

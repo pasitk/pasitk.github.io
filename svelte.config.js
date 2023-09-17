@@ -12,7 +12,7 @@ const config = {
       assets: "docs"
     }),
     paths: {
-      base: process.env.NODE_ENV === 'production' ? '/pasitk.github.io-sveltekit' : '',
+      base: process.env.NODE_ENV === 'production' ? '/pasitk.github.io' : '',
     }
   },
 
