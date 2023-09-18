@@ -83,7 +83,7 @@
 	<link rel="preload" as="image" href={base+'/images/bg-work-4.jpg'} fetchpriority="high"/>
 	<link rel="preload" as="image" href={base+'/images/bg-work-5.jpg'} fetchpriority="high"/>
 	{#each preloadImageUrls as image}
-      <link rel="preload" as="image" href={image} fetchpriority="low"/>
+      <link rel="preload" as="image" href={image} fetchpriority="auto"/>
     {/each}
 </svelte:head>
 
