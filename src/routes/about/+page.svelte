@@ -70,7 +70,7 @@
 	const numberOfImages = 500;
 
     // This will generate an array of urls such as /images/1.png, /images/2.png, up to numberOfImages
-    $: preloadImageUrls = [...Array(numberOfImages).keys()].map((key) => `${base}/images/bg-edu-shots/bg-edu-${padWithLeadingZeros(key+1,3)}.jpg`);
+    $: preloadImageUrls = [...Array(numberOfImages).keys()].map((key) => `${base}/images/bg-edu-shots/bg-edu-${padWithLeadingZeros((key+1),3)}.jpg`);
 
 </script>
 
