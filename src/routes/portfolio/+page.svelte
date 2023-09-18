@@ -2,6 +2,7 @@
 	import { fly, fade, scale } from 'svelte/transition';
     import GalleryItem from './Gallery-item.svelte';
 	import GalleryGroup from './Gallery-group.svelte';
+	import { base } from '$app/paths';
 
 	$: outerWidth = 0
 	$: innerWidth = 0
@@ -19,7 +20,20 @@
 	
 	<GalleryGroup>
 		<span slot="group-title">Data investigation with graphics</span>
-		<span slot="items" class="content-box-flex row">
+		<span slot="items" class="content-box-flex column">
+			<GalleryItem parentWidth={innerWidth} parentHeight={innerHeight}>
+				<span slot="screenshot"><img src="https://graphics.reuters.com/THAILAND-RICE/gdpzwmzywvw/graphic.jpg"></span>
+
+				<span slot="title"><a href="https://www.reuters.com/markets/commodities/soaring-rice-prices-sow-hope-trouble-indebted-thai-farmers-2023-09-18/" target="_blank">Soaring rice prices sow hope - and trouble - for indebted Thai farmers</a></span>
+
+				<span slot="for" style="background-color: #F46917; padding-left:0.5em; padding-right:0.5em">
+					Reuters
+				</span>
+
+				<span slot="links">
+					<a href="https://www.reuters.com/markets/commodities/soaring-rice-prices-sow-hope-trouble-indebted-thai-farmers-2023-09-18/" target="_blank">English</a>
+				</span>
+			</GalleryItem>
 			<GalleryItem parentWidth={innerWidth} parentHeight={innerHeight}>
 				<span slot="screenshot"><img src="https://graphics.reuters.com/THAILAND-AUTO/klvygwrzzvg/chart.png"></span>
 
@@ -57,6 +71,19 @@
 
 				<span slot="links">
 					<a href="https://www.reuters.com/world/asia-pacific/indian-tourists-flock-southeast-asia-chinas-reopening-falters-2023-07-17/" target="_blank">English</a>
+				</span>
+			</GalleryItem>
+			<GalleryItem parentWidth={innerWidth} parentHeight={innerHeight}>
+				<span slot="screenshot"><img src="https://pasitk.github.io/covid-impact-on-thailand-tourism/image/bg-1.jpg"></span>
+
+				<span slot="title"><a href="https://pasitk.github.io/covid-impact-on-thailand-tourism/" target="_blank">An insight into the impact of COVID-19 on Thailand's tourism industrys</a></span>
+
+				<span slot="for" style="background-color: #F46917; padding-left:0.5em; padding-right:0.5em">
+					Dissertation project at Cardiff University
+				</span>
+
+				<span slot="links">
+					<a href="https://pasitk.github.io/covid-impact-on-thailand-tourism/" target="_blank">English</a>
 				</span>
 			</GalleryItem>
 		</span>
@@ -288,6 +315,31 @@
 
 				<span slot="links">
 					<a href="https://www.reuters.com/sustainability/society-equity/japan-will-aggressively-push-womens-participation-after-gender-gap-report-2023-06-21/" target="_blank">English</a>
+				</span>
+			</GalleryItem>
+			<GalleryItem parentWidth={innerWidth} parentHeight={innerHeight}>
+				<span slot="screenshot"><img src="{base}/images/project/1.png"></span>
+
+				<span slot="title">
+					<a href="https://thestandard.co/russia-ukraine-crisis-live-report/" target="_blank">
+						(Map) Situation update in Russia-Ukraine war 
+					</a>
+				</span>
+
+				<span slot="subtitle">
+					In the project "
+					<a class="subtitle_link" href="https://thestandard.co/russia-ukraine-crisis-live-report/" target="_blank">
+						Ukraine-Russia War Coverage
+					</a>
+					" (inactive since June 2022)
+				</span>
+
+				<span slot="for" style="background-color: #F46917; padding-left:0.5em; padding-right:0.5em">
+					THE STANDARD (Thai online news agency)
+				</span>
+
+				<span slot="links">
+					<a href="https://thestandard.co/russia-ukraine-crisis-live-report/" target="_blank">Thai</a>
 				</span>
 			</GalleryItem>
 		</span>
