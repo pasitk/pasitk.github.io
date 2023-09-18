@@ -76,12 +76,15 @@
 
 <svelte:window bind:innerWidth={innerWidth} bind:innerHeight={innerHeight} />
 <svelte:head>
-    {#each preloadImageUrls as image}
-      <link rel="preload" as="image" href={image} fetchpriority="high"/>
-    {/each}
 	<link rel="preload" as="image" href={base+'/images/bg-work-0.jpg'} fetchpriority="high"/>
 	<link rel="preload" as="image" href={base+'/images/bg-work-1.jpg'} fetchpriority="high"/>
 	<link rel="preload" as="image" href={base+'/images/bg-work-2.jpg'} fetchpriority="high"/>
+	<link rel="preload" as="image" href={base+'/images/bg-work-3.jpg'} fetchpriority="high"/>
+	<link rel="preload" as="image" href={base+'/images/bg-work-4.jpg'} fetchpriority="high"/>
+	<link rel="preload" as="image" href={base+'/images/bg-work-5.jpg'} fetchpriority="high"/>
+	{#each preloadImageUrls as image}
+      <link rel="preload" as="image" href={image} fetchpriority="high"/>
+    {/each}
 </svelte:head>
 
 <div class='content'>
