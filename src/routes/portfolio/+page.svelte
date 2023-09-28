@@ -22,6 +22,19 @@
 		<span slot="group-title">Data investigation with graphics</span>
 		<span slot="items" class="content-box-flex column">
 			<GalleryItem parentWidth={innerWidth} parentHeight={innerHeight}>
+				<span slot="screenshot"><img src="https://www.reuters.com/graphics/CHINA-PROPERTY/SCALE/znpnzjdqapl/cdn/images/CHINA_SOCIAL.jpg"></span>
+
+				<span slot="title"><a href="https://www.reuters.com/graphics/CHINA-PROPERTY/SCALE/znpnzjdqapl/" target="_blank">The Massive Scale of China’s Property Sector</a></span>
+
+				<span slot="for" style="background-color: #F46917; padding-left:0.5em; padding-right:0.5em">
+					Reuters
+				</span>
+
+				<span slot="links">
+					<a href="https://www.reuters.com/graphics/CHINA-PROPERTY/SCALE/znpnzjdqapl/" target="_blank">English</a>
+				</span>
+			</GalleryItem>
+			<GalleryItem parentWidth={innerWidth} parentHeight={innerHeight}>
 				<span slot="screenshot"><img src="https://graphics.reuters.com/THAILAND-RICE/gdpzwmzywvw/graphic.jpg"></span>
 
 				<span slot="title"><a href="https://www.reuters.com/markets/commodities/soaring-rice-prices-sow-hope-trouble-indebted-thai-farmers-2023-09-18/" target="_blank">Soaring rice prices sow hope - and trouble - for indebted Thai farmers</a></span>
