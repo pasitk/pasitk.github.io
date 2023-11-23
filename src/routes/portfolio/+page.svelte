@@ -106,6 +106,31 @@
 		<span slot="group-title">Graphics</span>
 		<span slot="items" class="content-box-flex column">
 			<GalleryItem parentWidth={innerWidth} parentHeight={innerHeight}>
+				<span slot="screenshot"><img src="https://graphics.reuters.com/THAILAND-ECONOMY/GDP/egpbmxbwqvq/graphic.jpg"></span>
+
+				<span slot="title">
+					<a href="https://www.reuters.com/markets/asia/thai-q3-gdp-growth-misses-forecast-amid-exports-slowdown-2023-11-20/" target="_blank">
+						Thai Q3 GDP growth misses forecast
+					</a>
+				</span>
+
+				<span slot="subtitle">
+					In the story "
+					<a class="subtitle_link" href="https://www.reuters.com/markets/asia/thai-q3-gdp-growth-misses-forecast-amid-exports-slowdown-2023-11-20/" target="_blank">
+						Thai PM 'very worried' about weak Q3 growth, plans more stimulus
+					</a>
+					"
+				</span>
+
+				<span slot="for" style="background-color: #F46917; padding-left:0.5em; padding-right:0.5em">
+					Reuters
+				</span>
+
+				<span slot="links">
+					<a href="https://www.reuters.com/markets/asia/thai-q3-gdp-growth-misses-forecast-amid-exports-slowdown-2023-11-20/" target="_blank">English</a>
+				</span>
+			</GalleryItem>
+			<GalleryItem parentWidth={innerWidth} parentHeight={innerHeight}>
 				<span slot="screenshot"><img src="https://graphics.reuters.com/THAILAND-ELECTION/gdpzqeogwvw/chart.png"></span>
 
 				<span slot="title">
@@ -206,17 +231,17 @@
 				</span>
 			</GalleryItem>
 			<GalleryItem parentWidth={innerWidth} parentHeight={innerHeight}>
-				<span slot="screenshot"><img src="https://graphics.reuters.com/JAPAN-ECONOMY/BOJ/gdvzwynmmpw/chart.jpg"></span>
+				<span slot="screenshot"><img src="https://graphics.reuters.com/JAPAN-ECONOMY/BOJ/akpeaewynpr/chart.jpg"></span>
 
 				<span slot="title">
-					<a href="https://www.reuters.com/markets/rates-bonds/boj-seen-keeping-ultra-low-rates-may-debate-tweak-yield-cap-2023-07-27/" target="_blank">
-						The BOJ’s YCC faces a reckoning
+					<a href="https://www.reuters.com/markets/currencies/yen-under-pressure-us-treasury-yields-push-over-decade-peaks-2023-09-22/" target="_blank">
+						BOJ maintains ultra-low interest rates
 					</a>
 				</span>
 
 				<span slot="subtitle">
 					In the story "
-					<a class="subtitle_link" href="https://www.reuters.com/markets/rates-bonds/boj-seen-keeping-ultra-low-rates-may-debate-tweak-yield-cap-2023-07-27/" target="_blank">
+					<a class="subtitle_link" href="https://www.reuters.com/markets/currencies/yen-under-pressure-us-treasury-yields-push-over-decade-peaks-2023-09-22/" target="_blank">
 						Bank of Japan loosens grip on rates as prices rise, markets bet on bigger pivot
 					</a>
 					"
@@ -227,7 +252,7 @@
 				</span>
 
 				<span slot="links">
-					<a href="https://www.reuters.com/markets/rates-bonds/boj-seen-keeping-ultra-low-rates-may-debate-tweak-yield-cap-2023-07-27/" target="_blank">English</a>
+					<a href="https://www.reuters.com/markets/currencies/yen-under-pressure-us-treasury-yields-push-over-decade-peaks-2023-09-22/" target="_blank">English</a>
 				</span>
 			</GalleryItem>
 			<GalleryItem parentWidth={innerWidth} parentHeight={innerHeight}>
