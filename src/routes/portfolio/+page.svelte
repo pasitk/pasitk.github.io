@@ -242,7 +242,7 @@
 				<span slot="subtitle">
 					In the story "
 					<a class="subtitle_link" href="https://www.reuters.com/markets/currencies/yen-under-pressure-us-treasury-yields-push-over-decade-peaks-2023-09-22/" target="_blank">
-						Bank of Japan loosens grip on rates as prices rise, markets bet on bigger pivot
+						Dollar up as data highlights US economic resilience; yen slumps
 					</a>
 					"
 				</span>
