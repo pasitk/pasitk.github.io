@@ -83,6 +83,7 @@
 
 	.for {
 		margin: 1.5em 0 0.5em 0;
+		max-width: fit-content;
 	}
 
 	.for, .links {

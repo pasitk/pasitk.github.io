@@ -412,6 +412,168 @@
 		</span>
 	</GalleryGroup>
 
+	<GalleryGroup>
+		<span slot="group-title">My works in the media around the world</span>
+		<span slot="items" class="content-box-flex column">
+			<GalleryItem parentWidth={innerWidth} parentHeight={innerHeight}>
+				<span slot="screenshot"><img src="https://d2fc09gk1936lv.cloudfront.net/kbs/390x219/mediafactory.play.kbs.co.kr/vod/2023/04/04/642bf58424bd6d209af14165/thumbnail/642bf58424bd6d209af14165_0_1680603290001.jpg" style="min-width:100%"></span>
+
+				<span slot="title">
+					<a href="https://vod.kbs.co.kr/index.html?source=episode&sname=vod&stype=vod&program_code=T2022-0200&program_id=PS-2023046789-01-000&section_code=05&broadcast_complete_yn=&local_station_code=00" target="_blank">
+						Graphic: Surprise production cuts
+					</a>
+				</span>
+
+				<span slot="subtitle">
+					In the program "
+					<a class="subtitle_link" href="https://vod.kbs.co.kr/index.html?source=episode&sname=vod&stype=vod&program_code=T2022-0200&program_id=PS-2023046789-01-000&section_code=05&broadcast_complete_yn=&local_station_code=00" target="_blank">
+						A Morning Worth Trying M&W (해 볼만한 아침 M&W, morning current affairs and economic program) EP.230 
+					</a>
+					" [ from the minute 00:23:54 - 00:24:33 ]
+				</span>
+
+				<div slot="for" style="background-color: #F46917; padding-left:0.5em; padding-right:0.5em">
+					KBS 2 TV channel (South Korea)
+				</div>
+
+				<span slot="links">
+					<a href="https://vod.kbs.co.kr/index.html?source=episode&sname=vod&stype=vod&program_code=T2022-0200&program_id=PS-2023046789-01-000&section_code=05&broadcast_complete_yn=&local_station_code=00" target="_blank">Korean</a>
+				</span>
+			</GalleryItem>
+
+			<GalleryItem parentWidth={innerWidth} parentHeight={innerHeight}>
+				<span slot="screenshot"><img src="https://cafefcdn.com/203337114487263232/2023/7/11/1689016632-bi-u-02-1689052500979-16890525010822115828544.png"></span>
+
+				<span slot="title">
+					<a href="https://cafef.vn/gio-dao-chieu-tai-cong-xuong-o-to-so-1-dong-nam-a-188230711121519786.chn" target="_blank">
+						Story: China-led EV boom in Thailand threatens Japan's grip on key market
+					</a>
+				</span>
+
+				<span slot="subtitle">
+					In the story "
+					<a class="subtitle_link" href="https://cafef.vn/gio-dao-chieu-tai-cong-xuong-o-to-so-1-dong-nam-a-188230711121519786.chn" target="_blank">
+						Gió đảo chiều tại công xưởng ô tô số 1 Đông Nam Á
+					</a>
+					"
+				</span>
+
+				<div slot="for" style="background-color: #F46917; padding-left:0.5em; padding-right:0.5em">
+					Cafef.vn (Vietnam)
+				</div>
+
+				<span slot="links">
+					<a href="https://cafef.vn/gio-dao-chieu-tai-cong-xuong-o-to-so-1-dong-nam-a-188230711121519786.chn" target="_blank">Vietnamese</a>
+				</span>
+			</GalleryItem>
+
+			<GalleryItem parentWidth={innerWidth} parentHeight={innerHeight}>
+				<span slot="screenshot"><img src="https://graphics.reuters.com/TESLA-PRODUCTION/FORECAST/akpezdmnavr/chart.png"></span>
+
+				<span slot="title">
+					<a href="https://m.edaily.co.kr/news/Read?newsId=02348486632493904&mediaCodeNo=257" target="_blank">
+						Graphic: Tesla Model Y and Model 3 production expected to rise
+					</a>
+				</span>
+
+				<span slot="subtitle">
+					In the story "
+					<a class="subtitle_link" href="https://m.edaily.co.kr/news/Read?newsId=02348486632493904&mediaCodeNo=257" target="_blank">
+						Tesla, ahead of announcing ‘record sales’, will it hit a speed bump? (`역대급 매출` 발표 앞둔 테슬라, 과속방지턱 넘어설까 (영상))
+					</a>
+					"
+				</span>
+
+				<div slot="for" style="background-color: #F46917; padding-left:0.5em; padding-right:0.5em">
+					Edaily (South Korea)<br/>by Lee Jeong-hoon
+				</div>
+
+				<span slot="links">
+					<a href="https://m.edaily.co.kr/news/Read?newsId=02348486632493904&mediaCodeNo=257" target="_blank">Korean</a>
+				</span>
+			</GalleryItem>
+
+			<GalleryItem parentWidth={innerWidth} parentHeight={innerHeight}>
+				<span slot="screenshot"><img src="https://graphics.reuters.com/CHINA-ECONOMY/PMI/akpezdadnvr/chart.png"></span>
+
+				<span slot="title">
+					<a href="https://www.asiafinancial.com/chinas-factory-activity-edges-up-but-service-sector-slows" target="_blank">
+						Graphic: A contrast on two China manufacturing PMIs.
+					</a>
+				</span>
+
+				<span slot="subtitle">
+					In the story "
+					<a class="subtitle_link" href="https://www.asiafinancial.com/chinas-factory-activity-edges-up-but-service-sector-slows" target="_blank">
+						China’s Factory Activity Edges up But Service Sector Slows
+					</a>
+					"
+				</span>
+
+				<div slot="for" style="background-color: #F46917; padding-left:0.5em; padding-right:0.5em">
+					Asia Financial (Hong Kong)<br/>
+					by Reuters, with additional editing from Alfie Habershon and Jim Pollard
+				</div>
+
+				<span slot="links">
+					<a href="https://www.asiafinancial.com/chinas-factory-activity-edges-up-but-service-sector-slows" target="_blank">English</a>
+				</span>
+			</GalleryItem>
+
+			<GalleryItem parentWidth={innerWidth} parentHeight={innerHeight}>
+				<span slot="screenshot"><img src="https://graphics.reuters.com/CHINA-ECONOMY/PMI/zgpoboombvd/chart.png"></span>
+
+				<span slot="title">
+					<a href="https://www.weforum.org/agenda/2023/06/us-china-economy-stories-to-read-this-week/" target="_blank">
+						Graphic: China's factory activity extends declines
+					</a>
+				</span>
+
+				<span slot="subtitle">
+					In the story "
+					<a class="subtitle_link" href="https://www.weforum.org/agenda/2023/06/us-china-economy-stories-to-read-this-week/" target="_blank">
+						US economy holding up while China's economic malaise deepens, and other economy stories to read this week
+					</a>
+					"
+				</span>
+
+				<div slot="for" style="background-color: #F46917; padding-left:0.5em; padding-right:0.5em">
+					World Economic Forum<br>by Gabi Thesing
+				</div>
+
+				<span slot="links">
+					<a href="https://www.weforum.org/agenda/2023/06/us-china-economy-stories-to-read-this-week/" target="_blank">English</a>
+				</span>
+			</GalleryItem>
+
+			<GalleryItem parentWidth={innerWidth} parentHeight={innerHeight}>
+				<span slot="screenshot"><img src="https://graphics.reuters.com/GLOBAL-OIL/egpbyjrylvq/chart.jpg"></span>
+
+				<span slot="title">
+					<a href="https://www.youtube.com/watch?v=sdhFayhpXB0&pp=ygUYVEhFIFNUQU5EQVJEIFdFQUxUSCBPUEVD" target="_blank">
+						Graphic: Surprise production cuts
+					</a>
+				</span>
+
+				<span slot="subtitle">
+					In the program "
+					<a class="subtitle_link" href="https://www.youtube.com/watch?v=sdhFayhpXB0&pp=ygUYVEhFIFNUQU5EQVJEIFdFQUxUSCBPUEVD" target="_blank">
+						Morning Wealth (April 4, 2023)
+					</a>
+					"
+				</span>
+
+				<div slot="for" style="background-color: #F46917; padding-left:0.5em; padding-right:0.5em">
+					THE STANDARD (Thai online news outlet)
+				</div>
+
+				<span slot="links">
+					<a href="https://www.youtube.com/watch?v=sdhFayhpXB0&pp=ygUYVEhFIFNUQU5EQVJEIFdFQUxUSCBPUEVD" target="_blank">Thai</a>
+				</span>
+			</GalleryItem>
+		</span>
+	</GalleryGroup>
+
 </div>
 
 <style>
