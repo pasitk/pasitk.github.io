@@ -106,6 +106,60 @@
 		<span slot="group-title">Graphics</span>
 		<span slot="items" class="content-box-flex column">
 			<GalleryItem parentWidth={innerWidth} parentHeight={innerHeight}>
+				<span slot="screenshot"><img src="https://graphics.reuters.com/PEOPLE-CHARLES%20MUNGER/zdpxrzjjrpx/graphic.jpg"></span>
+
+				<span slot="title">
+					<a href="https://www.tradingview.com/news/reuters.com,2023:newsml_L4N3CV3WC:0-berkshire-s-growth-under-munger-s-watch/" target="_blank">
+						Berkshire Hathaway’s legend
+					</a>
+				</span>
+
+				<span slot="subtitle">
+					In the story "
+					<a class="subtitle_link" href="https://www.tradingview.com/news/reuters.com,2023:newsml_L4N3CV3WC:0-berkshire-s-growth-under-munger-s-watch/" target="_blank">
+						Berkshire's growth under Munger's watch
+					</a>
+					"
+				</span>
+
+				<span slot="for" style="background-color: #F46917; padding-left:0.5em; padding-right:0.5em">
+					Reuters (Published on TradingView website)
+				</span>
+
+				<span slot="links">
+					<a href="https://www.tradingview.com/news/reuters.com,2023:newsml_L4N3CV3WC:0-berkshire-s-growth-under-munger-s-watch/" target="_blank">English</a>
+				</span>
+			</GalleryItem>
+			<GalleryItem parentWidth={innerWidth} parentHeight={innerHeight}>
+				<span slot="screenshot"><img src="https://graphics.reuters.com/GLOBAL-ECONOMY/byprryymgpe/chart.png"></span>
+
+				<span slot="title">
+					<a href="https://www.reuters.com/markets/asia/global-economy-asia-factory-activity-weakens-uncertainty-china-clouds-outlook-2023-12-01/" target="_blank">
+						Global factory activity remains weak
+					</a>
+				</span>
+
+				<span slot="subtitle">
+					In the story "
+					<a class="subtitle_link" href="https://www.reuters.com/markets/asia/global-economy-asia-factory-activity-weakens-uncertainty-china-clouds-outlook-2023-12-01/" target="_blank">
+						Global factory activity stays weak, uncertainty on China clouds outlook
+					</a>
+					" and commentary article "
+					<a class="subtitle_link" href="https://www.reuters.com/markets/us/global-markets-view-usa-2023-12-04/" target="_blank">
+						Morning Bid: Buoyant markets hold near year's highs
+					</a>
+					"
+				</span>
+
+				<span slot="for" style="background-color: #F46917; padding-left:0.5em; padding-right:0.5em">
+					Reuters
+				</span>
+
+				<span slot="links">
+					<a href="https://www.reuters.com/markets/asia/global-economy-asia-factory-activity-weakens-uncertainty-china-clouds-outlook-2023-12-01/" target="_blank">English</a>
+				</span>
+			</GalleryItem>
+			<GalleryItem parentWidth={innerWidth} parentHeight={innerHeight}>
 				<span slot="screenshot"><img src="https://graphics.reuters.com/THAILAND-ECONOMY/GDP/egpbmxbwqvq/graphic.jpg"></span>
 
 				<span slot="title">
@@ -253,31 +307,6 @@
 
 				<span slot="links">
 					<a href="https://www.reuters.com/markets/currencies/yen-under-pressure-us-treasury-yields-push-over-decade-peaks-2023-09-22/" target="_blank">English</a>
-				</span>
-			</GalleryItem>
-			<GalleryItem parentWidth={innerWidth} parentHeight={innerHeight}>
-				<span slot="screenshot"><img src="https://graphics.reuters.com/GLOBAL-MARKETS/THEMES/gkplwejbzvb/chart.png"></span>
-
-				<span slot="title">
-					<a href="https://www.reuters.com/business/take-five/global-markets-themes-takealook-2023-05-19/" target="_blank">
-						Global business activity was strong in April. Will it last?
-					</a>
-				</span>
-
-				<span slot="subtitle">
-					In the story "
-					<a class="subtitle_link" href="https://www.reuters.com/business/take-five/global-markets-themes-takealook-2023-05-19/" target="_blank">
-						Take Five: More drama on the horizon
-					</a>
-					"
-				</span>
-
-				<span slot="for" style="background-color: #F46917; padding-left:0.5em; padding-right:0.5em">
-					Reuters
-				</span>
-
-				<span slot="links">
-					<a href="https://www.reuters.com/business/take-five/global-markets-themes-takealook-2023-05-19/" target="_blank">English</a>
 				</span>
 			</GalleryItem>
 			<GalleryItem parentWidth={innerWidth} parentHeight={innerHeight}>
