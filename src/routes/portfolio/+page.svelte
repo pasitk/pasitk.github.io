@@ -106,6 +106,132 @@
 		<span slot="group-title">Graphics</span>
 		<span slot="items" class="content-box-flex column">
 			<GalleryItem parentWidth={innerWidth} parentHeight={innerHeight}>
+				<span slot="screenshot"><img src="https://www.reuters.com/graphics/CHINA-ECONOMY/GDP-PROVINCES/dwpkeaqxdpm/graphic.jpg"></span>
+
+				<span slot="title">
+					<a href="https://www.reuters.com/world/china/chinese-provinces-target-modest-2024-growth-after-missing-previous-goals-2024-01-26/" target="_blank">
+						Most Chinese provinces set more modest 2024 growth targets
+					</a>
+				</span>
+
+				<span slot="subtitle">
+					In the story "
+					<a class="subtitle_link" href="https://www.reuters.com/world/china/chinese-provinces-target-modest-2024-growth-after-missing-previous-goals-2024-01-26/" target="_blank">
+						Chinese provinces target modest 2024 growth after missing previous goals
+					</a>
+					"
+				</span>
+
+				<span slot="for" style="background-color: #F46917; padding-left:0.5em; padding-right:0.5em">
+					Reuters
+				</span>
+
+				<span slot="links">
+					<a href="https://www.reuters.com/world/china/chinese-provinces-target-modest-2024-growth-after-missing-previous-goals-2024-01-26/" target="_blank">English</a>
+				</span>
+			</GalleryItem>
+			<GalleryItem parentWidth={innerWidth} parentHeight={innerHeight}>
+				<span slot="screenshot"><img src="https://www.reuters.com/graphics/CHINA-MARKETS/INVESTORS/gkvldxmlqvb/chart.png"></span>
+
+				<span slot="title">
+					<a href="https://www.reuters.com/world/china/investors-give-up-futile-wait-china-fix-economy-2024-01-23/" target="_blank">
+						Chinese stock market turbulence
+					</a>
+				</span>
+
+				<span slot="subtitle">
+					In the story "
+					<a class="subtitle_link" href="https://www.reuters.com/world/china/investors-give-up-futile-wait-china-fix-economy-2024-01-23/" target="_blank">
+						Investors give up futile wait for China to fix economy
+					</a>
+					"
+				</span>
+
+				<span slot="for" style="background-color: #F46917; padding-left:0.5em; padding-right:0.5em">
+					Reuters
+				</span>
+
+				<span slot="links">
+					<a href="https://www.reuters.com/world/china/investors-give-up-futile-wait-china-fix-economy-2024-01-23/" target="_blank">English</a>,
+					<a href="https://www.reuters.com/graphics/CHINA-MARKETS/INVESTORS/jnvwxweyrpw/chart.png" target="_blank">Spanish</a>
+				</span>
+			</GalleryItem>
+			<GalleryItem parentWidth={innerWidth} parentHeight={innerHeight}>
+				<span slot="screenshot"><img src="https://graphics.reuters.com/INDONESIA-ELECTION/POLL/gkvldgxlwvb/chart.png"></span>
+
+				<span slot="title">
+					<a href="https://www.reuters.com/world/asia-pacific/indonesia-presidential-frontrunner-under-fire-rivals-attack-defence-plans-2024-01-08/" target="_blank">
+						Indonesian presidential election polls (a set of graphics)
+					</a>
+				</span>
+
+				<span slot="subtitle">
+					In the story "
+					<a class="subtitle_link" href="https://www.reuters.com/world/asia-pacific/indonesia-presidential-frontrunner-under-fire-rivals-attack-defence-plans-2024-01-08/" target="_blank">
+						Indonesia presidential frontrunner under fire as rivals attack defence plans
+					</a>
+					"
+				</span>
+
+				<span slot="for" style="background-color: #F46917; padding-left:0.5em; padding-right:0.5em">
+					Reuters
+				</span>
+
+				<span slot="links">
+					<a href="https://www.reuters.com/world/asia-pacific/indonesia-presidential-frontrunner-under-fire-rivals-attack-defence-plans-2024-01-08/" target="_blank">English</a>
+				</span>
+			</GalleryItem>
+			<GalleryItem parentWidth={innerWidth} parentHeight={innerHeight}>
+				<span slot="screenshot"><img src="https://graphics.reuters.com/INDONESIA-ELECTION/TIMELINE/jnvwxewalpw/graphic.jpg"></span>
+
+				<span slot="title">
+					<a href="https://www.reuters.com/world/asia-pacific/indonesia-presidential-frontrunner-under-fire-rivals-attack-defence-plans-2024-01-08/" target="_blank">
+						Road to presidency: Indonesia’s 2024 presidential election timeline
+					</a>
+				</span>
+
+				<span slot="subtitle">
+					In the story "
+					<a class="subtitle_link" href="https://www.reuters.com/world/asia-pacific/indonesia-presidential-frontrunner-under-fire-rivals-attack-defence-plans-2024-01-08/" target="_blank">
+						Indonesia presidential frontrunner under fire as rivals attack defence plans
+					</a>
+					"
+				</span>
+
+				<span slot="for" style="background-color: #F46917; padding-left:0.5em; padding-right:0.5em">
+					Reuters
+				</span>
+
+				<span slot="links">
+					<a href="https://www.reuters.com/world/asia-pacific/indonesia-presidential-frontrunner-under-fire-rivals-attack-defence-plans-2024-01-08/" target="_blank">English</a>
+				</span>
+			</GalleryItem>
+			<GalleryItem parentWidth={innerWidth} parentHeight={innerHeight}>
+				<span slot="screenshot"><img src="https://graphics.reuters.com/OIL-OPEC/ANGOLA/gkpldmgzapb/chart.png"></span>
+
+				<span slot="title">
+					<a href="https://www.reuters.com/business/energy/angolas-opec-exit-opens-way-more-chinese-investment-2023-12-22/" target="_blank">
+						Angola: OPEC's seventh biggest crude oil producer in 2022
+					</a>
+				</span>
+
+				<span slot="subtitle">
+					In the story "
+					<a class="subtitle_link" href="https://www.reuters.com/business/energy/angolas-opec-exit-opens-way-more-chinese-investment-2023-12-22/" target="_blank">
+						Angola's OPEC exit opens way for more Chinese investment
+					</a>
+					"
+				</span>
+
+				<span slot="for" style="background-color: #F46917; padding-left:0.5em; padding-right:0.5em">
+					Reuters
+				</span>
+
+				<span slot="links">
+					<a href="https://www.reuters.com/business/energy/angolas-opec-exit-opens-way-more-chinese-investment-2023-12-22/" target="_blank">English</a>
+				</span>
+			</GalleryItem>
+			<GalleryItem parentWidth={innerWidth} parentHeight={innerHeight}>
 				<span slot="screenshot"><img src="https://graphics.reuters.com/PEOPLE-CHARLES%20MUNGER/zdpxrzjjrpx/graphic.jpg"></span>
 
 				<span slot="title">
@@ -131,22 +257,18 @@
 				</span>
 			</GalleryItem>
 			<GalleryItem parentWidth={innerWidth} parentHeight={innerHeight}>
-				<span slot="screenshot"><img src="https://graphics.reuters.com/GLOBAL-ECONOMY/byprryymgpe/chart.png"></span>
+				<span slot="screenshot"><img src="https://graphics.reuters.com/GLOBAL-MARKETS/THEMES/movalkbwqpa/chart.png"></span>
 
 				<span slot="title">
-					<a href="https://www.reuters.com/markets/asia/global-economy-asia-factory-activity-weakens-uncertainty-china-clouds-outlook-2023-12-01/" target="_blank">
-						Global factory activity remains weak
+					<a href="https://www.reuters.com/business/take-five/global-markets-themes-takealook-2024-01-19/" target="_blank">
+						Markets are holding tight to soft landing hopes
 					</a>
 				</span>
 
 				<span slot="subtitle">
 					In the story "
-					<a class="subtitle_link" href="https://www.reuters.com/markets/asia/global-economy-asia-factory-activity-weakens-uncertainty-china-clouds-outlook-2023-12-01/" target="_blank">
-						Global factory activity stays weak, uncertainty on China clouds outlook
-					</a>
-					" and commentary article "
-					<a class="subtitle_link" href="https://www.reuters.com/markets/us/global-markets-view-usa-2023-12-04/" target="_blank">
-						Morning Bid: Buoyant markets hold near year's highs
+					<a class="subtitle_link" href="https://www.reuters.com/business/take-five/global-markets-themes-takealook-2024-01-19/" target="_blank">
+						Take Five: And we're off
 					</a>
 					"
 				</span>
@@ -156,7 +278,7 @@
 				</span>
 
 				<span slot="links">
-					<a href="https://www.reuters.com/markets/asia/global-economy-asia-factory-activity-weakens-uncertainty-china-clouds-outlook-2023-12-01/" target="_blank">English</a>
+					<a href="https://www.reuters.com/business/take-five/global-markets-themes-takealook-2024-01-19/" target="_blank">English</a>
 				</span>
 			</GalleryItem>
 			<GalleryItem parentWidth={innerWidth} parentHeight={innerHeight}>
