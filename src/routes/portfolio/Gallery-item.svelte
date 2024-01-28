@@ -77,7 +77,7 @@
 		margin-top: 0.5em;
 	}
 
-    .title:hover, .links > span:hover {
+    .title:hover, .links > span > a:hover {
         color:#CCCCCC;
     }
 
