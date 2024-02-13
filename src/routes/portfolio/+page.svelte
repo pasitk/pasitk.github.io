@@ -106,6 +106,56 @@
 		<span slot="group-title">Graphics</span>
 		<span slot="items" class="content-box-flex column">
 			<GalleryItem parentWidth={innerWidth} parentHeight={innerHeight}>
+				<span slot="screenshot"><img src="https://www.reuters.com/graphics/INDONESIA-ELECTION/NUMBERS/lbpgbljomvq/graphic.jpg"></span>
+
+				<span slot="title">
+					<a href="https://www.reuters.com/world/asia-pacific/indonesias-election-numbers-2024-02-08/" target="_blank">
+						2024 Indonesia election by the numbers
+					</a>
+				</span>
+
+				<span slot="subtitle">
+					In the story "
+					<a class="subtitle_link" href="https://www.reuters.com/world/asia-pacific/indonesias-election-numbers-2024-02-08/" target="_blank">
+						Indonesia's election in numbers
+					</a>
+					"
+				</span>
+
+				<span slot="for" style="background-color: #F46917; padding-left:0.5em; padding-right:0.5em">
+					Reuters
+				</span>
+
+				<span slot="links">
+					<a href="https://www.reuters.com/world/asia-pacific/indonesias-election-numbers-2024-02-08/" target="_blank">English</a>
+				</span>
+			</GalleryItem>
+			<GalleryItem parentWidth={innerWidth} parentHeight={innerHeight}>
+				<span slot="screenshot"><img src="https://graphics.reuters.com/INDONESIA-ELECTION/POLL/gkvldgxlwvb/chart.png"></span>
+
+				<span slot="title">
+					<a href="https://www.reuters.com/world/asia-pacific/indonesia-presidential-hopeful-prabowo-seen-getting-majority-votes-survey-2024-02-10/" target="_blank">
+						Indonesian presidential election survey: Indikator (nationwide)
+					</a>
+				</span>
+
+				<span slot="subtitle">
+					In the story "
+					<a class="subtitle_link" href="https://www.reuters.com/world/asia-pacific/indonesia-presidential-hopeful-prabowo-seen-getting-majority-votes-survey-2024-02-10/" target="_blank">
+						Indonesia's Prabowo on track for presidential majority, survey shows
+					</a>
+					"
+				</span>
+
+				<span slot="for" style="background-color: #F46917; padding-left:0.5em; padding-right:0.5em">
+					Reuters
+				</span>
+
+				<span slot="links">
+					<a href="https://www.reuters.com/world/asia-pacific/indonesia-presidential-hopeful-prabowo-seen-getting-majority-votes-survey-2024-02-10/" target="_blank">English</a>
+				</span>
+			</GalleryItem>
+			<GalleryItem parentWidth={innerWidth} parentHeight={innerHeight}>
 				<span slot="screenshot"><img src="https://www.reuters.com/graphics/CHINA-ECONOMY/GDP-PROVINCES/dwpkeaqxdpm/graphic.jpg"></span>
 
 				<span slot="title">
