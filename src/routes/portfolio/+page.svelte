@@ -135,7 +135,7 @@
 
 				<span slot="title">
 					<a href="https://www.reuters.com/world/asia-pacific/indonesia-presidential-hopeful-prabowo-seen-getting-majority-votes-survey-2024-02-10/" target="_blank">
-						Indonesian presidential election survey: Indikator (nationwide)
+						Indonesian presidential election polls (a set of graphics)
 					</a>
 				</span>
 
@@ -204,31 +204,6 @@
 				<span slot="links">
 					<a href="https://www.reuters.com/world/china/investors-give-up-futile-wait-china-fix-economy-2024-01-23/" target="_blank">English</a>,
 					<a href="https://www.reuters.com/graphics/CHINA-MARKETS/INVESTORS/jnvwxweyrpw/chart.png" target="_blank">Spanish</a>
-				</span>
-			</GalleryItem>
-			<GalleryItem parentWidth={innerWidth} parentHeight={innerHeight}>
-				<span slot="screenshot"><img src="https://graphics.reuters.com/INDONESIA-ELECTION/POLL/gkvldgxlwvb/chart.png"></span>
-
-				<span slot="title">
-					<a href="https://www.reuters.com/world/asia-pacific/indonesia-presidential-frontrunner-under-fire-rivals-attack-defence-plans-2024-01-08/" target="_blank">
-						Indonesian presidential election polls (a set of graphics)
-					</a>
-				</span>
-
-				<span slot="subtitle">
-					In the story "
-					<a class="subtitle_link" href="https://www.reuters.com/world/asia-pacific/indonesia-presidential-frontrunner-under-fire-rivals-attack-defence-plans-2024-01-08/" target="_blank">
-						Indonesia presidential frontrunner under fire as rivals attack defence plans
-					</a>
-					"
-				</span>
-
-				<span slot="for" style="background-color: #F46917; padding-left:0.5em; padding-right:0.5em">
-					Reuters
-				</span>
-
-				<span slot="links">
-					<a href="https://www.reuters.com/world/asia-pacific/indonesia-presidential-frontrunner-under-fire-rivals-attack-defence-plans-2024-01-08/" target="_blank">English</a>
 				</span>
 			</GalleryItem>
 			<GalleryItem parentWidth={innerWidth} parentHeight={innerHeight}>
