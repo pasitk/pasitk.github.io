@@ -178,9 +178,9 @@
 					</div>
 					<div>
 						<ul>
-							<li>Create daily breaking news graphics across markets, economics and companies beats around the world.</li>
+							<li>Create daily breaking news graphics and develop interactive graphics pages across markets, economics and companies beats around the world.</li>
 							<li>Generate story and graphics ideas from the financial news of the day.</li>
-							<li>Also support data and graphics for Thailand's big stories outside economics and financial side, e.g., Thailand general election in 2023.</li>
+							<li>Also support data and graphics for Thailand's big stories outside economics and financial side, e.g., general elections in Thailand and Indonesia.</li>
 						</ul>
 					</div>
 				</div>

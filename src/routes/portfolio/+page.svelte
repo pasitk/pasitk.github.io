@@ -19,6 +19,49 @@
 	<div class="content-header-one semi-bold" in:fly={{ y: 50, duration: 2000 }}>Portfolio</div>
 	
 	<GalleryGroup>
+		<span slot="group-title">Interactive storytelling pages</span>
+		<span slot="items" class="content-box-flex row">
+			<GalleryItem parentWidth={innerWidth} parentHeight={innerHeight}>
+				<span slot="screenshot"><img src="https://graphics.thomsonreuters.com/data/reuters-graphics/homepage/images/share-image.a0f553ff237784aef9c7f006a2895cc8.jpg" class="screenshot_img"></span>
+
+				<span slot="title"><a href="https://www.reuters.com/graphics/CHINA-STOCKS/byprkdgenve/" target="_blank">China's stock market struggles</a></span>
+
+				<span slot="subtitle">
+					<a class="subtitle_link" href="https://www.reuters.com/graphics/CHINA-STOCKS/byprkdgenve/" target="_blank">
+						Chinese stock indexes touched multi-year lows in February.
+					</a>
+				</span>
+
+				<span slot="for" style="background-color: #F46917; padding-left:0.5em; padding-right:0.5em">
+					Reuters
+				</span>
+
+				<span slot="links">
+					<a href="https://www.reuters.com/graphics/CHINA-STOCKS/byprkdgenve/" target="_blank">English</a>
+				</span>
+			</GalleryItem>
+			<GalleryItem parentWidth={innerWidth} parentHeight={innerHeight}>
+				<span slot="screenshot"><img src="https://graphics.thomsonreuters.com/data/reuters-graphics/homepage/images/share-image.19403963abc5afe401c50e4aa85b336c.jpg" class="screenshot_img"></span>
+
+				<span slot="title"><a href="https://www.reuters.com/graphics/CHINA-USA/TRADE/zdvxneaaxvx/" target="_blank">Analysis: What overcapacity?</a></span>
+
+				<span slot="subtitle">
+					<a class="subtitle_link" href="https://www.reuters.com/graphics/CHINA-STOCKS/byprkdgenve/" target="_blank">
+						China says its industries are simply more competitive.
+					</a>
+				</span>
+
+				<span slot="for" style="background-color: #F46917; padding-left:0.5em; padding-right:0.5em">
+					Reuters
+				</span>
+
+				<span slot="links">
+					<a href="https://www.reuters.com/graphics/CHINA-USA/TRADE/zdvxneaaxvx/" target="_blank">English</a>
+				</span>
+			</GalleryItem>
+		</span>
+	</GalleryGroup>
+	<GalleryGroup>
 		<span slot="group-title">Data investigation with graphics</span>
 		<span slot="items" class="content-box-flex column">
 			<GalleryItem parentWidth={innerWidth} parentHeight={innerHeight}>
@@ -783,7 +826,7 @@
 			display: block;
 		}
 		.row {
-			height: 700px;
+			height: 550px;
 		}
 	}
 	.content {
@@ -807,5 +850,8 @@
 		color: #CCCCCC;
 	}
 
+	.screenshot_img {
+		width: 100%;
+	}
 
 </style>

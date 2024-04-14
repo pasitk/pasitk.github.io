@@ -14,7 +14,7 @@
 			<div class="name semi-bold" in:fly={{ y: 50, duration: 2000 }}>Pasit</div>
 			<div class="five-times surname" in:fly={{ y: 50, duration: 2000, delay: 300 }}>Kongkunakornkul</div>
 			<div class="job-headline light" in:fly={{ y: 50, duration: 2000, delay: 600 }}>Data and graphics journalist</div>
-			<div class="job-headline-desc light" style="--c:white;--w:30px;--b:10px" in:scale={{delay: 600, opacity: 0, duration: 1000}}><span in:fly={{ y: 50, duration: 2000, delay: 900 }}>Pasit Kongkunakornkul is a Financial Graphics Reporter for the Reuters Graphics team at the Reuters news agency. He creates daily breaking news graphics across markets, economics and companies beats worldwide and generates story and graphics ideas from the financial news of the day. He also supports data and graphics reporting for Thailand's big stories outside economics and financial side, e.g., Thailand general election in 2023.</span></div>
+			<div class="job-headline-desc light" style="--c:white;--w:30px;--b:10px" in:scale={{delay: 600, opacity: 0, duration: 1000}}><span in:fly={{ y: 50, duration: 2000, delay: 900 }}>Pasit Kongkunakornkul is a Financial Graphics Reporter for the Reuters Graphics team at the Reuters news agency. He creates daily breaking news graphics and develop interactive graphics pages across markets, economics and companies beats worldwide and generates story and graphics ideas from the financial news of the day. He also supports data and graphics reporting for Thailand's big stories outside economics and financial side, e.g., general elections in Thailand and Indonesia.</span></div>
 		</div>
 	</div>
 {/if}
