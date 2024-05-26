@@ -46,7 +46,7 @@
 				<span slot="title"><a href="https://www.reuters.com/graphics/CHINA-USA/TRADE/zdvxneaaxvx/" target="_blank">Analysis: What overcapacity?</a></span>
 
 				<span slot="subtitle">
-					<a class="subtitle_link" href="https://www.reuters.com/graphics/CHINA-STOCKS/byprkdgenve/" target="_blank">
+					<a class="subtitle_link" href="https://www.reuters.com/graphics/CHINA-USA/TRADE/zdvxneaaxvx/" target="_blank">
 						China says its industries are simply more competitive.
 					</a>
 				</span>
@@ -57,6 +57,25 @@
 
 				<span slot="links">
 					<a href="https://www.reuters.com/graphics/CHINA-USA/TRADE/zdvxneaaxvx/" target="_blank">English</a>
+				</span>
+			</GalleryItem>
+			<GalleryItem parentWidth={innerWidth} parentHeight={innerHeight}>
+				<span slot="screenshot"><img src="https://graphics.thomsonreuters.com/data/reuters-graphics/homepage/images/share-image.ed12223e306721dfc2952e769a42376a.jpg" class="screenshot_img"></span>
+
+				<span slot="title"><a href="https://www.reuters.com/graphics/SAFRICA-ELECTION/ECONOMY/egpbonzrgvq/" target="_blank">Equality eludes South Africa 30 years after apartheid</a></span>
+
+				<span slot="subtitle">
+					<a class="subtitle_link" href="https://www.reuters.com/graphics/SAFRICA-ELECTION/ECONOMY/egpbonzrgvq/" target="_blank">
+						While strides have been made in delivering education, housing and welfare benefits to a wider share of society, South Africa has yet to overcome the legacy of apartheid and deliver a better life for all.
+					</a>
+				</span>
+
+				<span slot="for" style="background-color: #F46917; padding-left:0.5em; padding-right:0.5em">
+					Reuters
+				</span>
+
+				<span slot="links">
+					<a href="https://www.reuters.com/graphics/SAFRICA-ELECTION/ECONOMY/egpbonzrgvq/" target="_blank">English</a>
 				</span>
 			</GalleryItem>
 		</span>
@@ -148,6 +167,106 @@
 	<GalleryGroup>
 		<span slot="group-title">Graphics</span>
 		<span slot="items" class="content-box-flex column">
+			<GalleryItem parentWidth={innerWidth} parentHeight={innerHeight}>
+				<span slot="screenshot"><img src="https://www.reuters.com/graphics/CLIMATE-CHANGE/CORALS-THAILAND/byvrqoeoepe/chart.png"></span>
+
+				<span slot="title">
+					<a href="https://www.reuters.com/business/environment/boiling-not-warming-marine-life-suffers-thai-sea-temperatures-hit-record-2024-05-23/" target="_blank">
+						Thailand's coral bleaching amid global event
+					</a>
+				</span>
+
+				<span slot="subtitle">
+					In the story "
+					<a class="subtitle_link" href="https://www.reuters.com/business/environment/boiling-not-warming-marine-life-suffers-thai-sea-temperatures-hit-record-2024-05-23/" target="_blank">
+						'Boiling not warming': Marine life suffers as Thai sea temperatures hit record
+					</a>
+					"
+				</span>
+
+				<span slot="for" style="background-color: #F46917; padding-left:0.5em; padding-right:0.5em">
+					Reuters
+				</span>
+
+				<span slot="links">
+					<a href="https://www.reuters.com/business/environment/boiling-not-warming-marine-life-suffers-thai-sea-temperatures-hit-record-2024-05-23/" target="_blank">English</a>
+				</span>
+			</GalleryItem>
+			<GalleryItem parentWidth={innerWidth} parentHeight={innerHeight}>
+				<span slot="screenshot"><img src="https://www.reuters.com/graphics/CLIMATE-CHANGE/CORALS-THAILAND/egpbonqnwvq/chart.png"></span>
+
+				<span slot="title">
+					<a href="https://www.reuters.com/business/environment/boiling-not-warming-marine-life-suffers-thai-sea-temperatures-hit-record-2024-05-23/" target="_blank">
+						Thailand's record heat causes coral bleaching
+					</a>
+				</span>
+
+				<span slot="subtitle">
+					In the story "
+					<a class="subtitle_link" href="https://www.reuters.com/business/environment/boiling-not-warming-marine-life-suffers-thai-sea-temperatures-hit-record-2024-05-23/" target="_blank">
+						'Boiling not warming': Marine life suffers as Thai sea temperatures hit record
+					</a>
+					"
+				</span>
+
+				<span slot="for" style="background-color: #F46917; padding-left:0.5em; padding-right:0.5em">
+					Reuters
+				</span>
+
+				<span slot="links">
+					<a href="https://www.reuters.com/business/environment/boiling-not-warming-marine-life-suffers-thai-sea-temperatures-hit-record-2024-05-23/" target="_blank">English</a>
+				</span>
+			</GalleryItem>
+			<GalleryItem parentWidth={innerWidth} parentHeight={innerHeight}>
+				<span slot="screenshot"><img src="https://www.reuters.com/graphics/SPACE-TECH/AGRICULTURE/egpbonyawvq/graphic.jpg"></span>
+
+				<span slot="title">
+					<a href="https://www.reuters.com/world/india/space-data-fuels-indias-farming-innovation-drive-2024-05-17/" target="_blank">
+						Agri tech boom in India
+					</a>
+				</span>
+
+				<span slot="subtitle">
+					In the story "
+					<a class="subtitle_link" href="https://www.reuters.com/world/india/space-data-fuels-indias-farming-innovation-drive-2024-05-17/" target="_blank">
+						Space data fuels India's farming innovation drive
+					</a>
+					"
+				</span>
+
+				<span slot="for" style="background-color: #F46917; padding-left:0.5em; padding-right:0.5em">
+					Reuters
+				</span>
+
+				<span slot="links">
+					<a href="https://www.reuters.com/world/india/space-data-fuels-indias-farming-innovation-drive-2024-05-17/" target="_blank">English</a>
+				</span>
+			</GalleryItem>
+			<GalleryItem parentWidth={innerWidth} parentHeight={innerHeight}>
+				<span slot="screenshot"><img src="https://www.reuters.com/graphics/BRITAIN-POLITICS/ECONOMY/egvbaxlnmpq/graphic.jpg"></span>
+
+				<span slot="title">
+					<a href="https://www.reuters.com/world/uk/slow-growth-high-debt-troubled-uk-economy-awaits-election-winners-2024-04-19/" target="_blank">
+						Britain’s sluggish economic growth
+					</a>
+				</span>
+
+				<span slot="subtitle">
+					In the story "
+					<a class="subtitle_link" href="https://www.reuters.com/world/uk/slow-growth-high-debt-troubled-uk-economy-awaits-election-winners-2024-04-19/" target="_blank">
+						Slow growth, high debt - troubled UK economy awaits election winners
+					</a>
+					"
+				</span>
+
+				<span slot="for" style="background-color: #F46917; padding-left:0.5em; padding-right:0.5em">
+					Reuters
+				</span>
+
+				<span slot="links">
+					<a href="https://www.reuters.com/world/uk/slow-growth-high-debt-troubled-uk-economy-awaits-election-winners-2024-04-19/" target="_blank">English</a>
+				</span>
+			</GalleryItem>
 			<GalleryItem parentWidth={innerWidth} parentHeight={innerHeight}>
 				<span slot="screenshot"><img src="https://www.reuters.com/graphics/INDONESIA-ELECTION/NUMBERS/lbpgbljomvq/graphic.jpg"></span>
 
@@ -826,7 +945,7 @@
 			display: block;
 		}
 		.row {
-			height: 550px;
+			height: 750px;
 		}
 	}
 	.content {
