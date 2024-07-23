@@ -20,7 +20,7 @@
 	
 	<GalleryGroup>
 		<span slot="group-title">Interactive storytelling pages</span>
-		<span slot="items" class="content-box-flex row">
+		<span slot="items" class="content-box-flex column">
 			<GalleryItem parentWidth={innerWidth} parentHeight={innerHeight}>
 				<span slot="screenshot"><img src="https://graphics.thomsonreuters.com/data/reuters-graphics/homepage/images/share-image.a0f553ff237784aef9c7f006a2895cc8.jpg" class="screenshot_img"></span>
 
@@ -78,11 +78,63 @@
 					<a href="https://www.reuters.com/graphics/SAFRICA-ELECTION/ECONOMY/egpbonzrgvq/" target="_blank">English</a>
 				</span>
 			</GalleryItem>
+			<GalleryItem parentWidth={innerWidth} parentHeight={innerHeight}>
+				<span slot="screenshot"><img src="https://pasitk.github.io/covid-impact-on-thailand-tourism/image/bg-1.jpg"></span>
+
+				<span slot="title"><a href="https://pasitk.github.io/covid-impact-on-thailand-tourism/" target="_blank">An insight into the impact of COVID-19 on Thailand's tourism industry</a></span>
+
+				<span slot="for" style="background-color: #F46917; padding-left:0.5em; padding-right:0.5em">
+					Dissertation project at Cardiff University
+				</span>
+
+				<span slot="links">
+					<a href="https://pasitk.github.io/covid-impact-on-thailand-tourism/" target="_blank">English</a>
+				</span>
+			</GalleryItem>
 		</span>
 	</GalleryGroup>
 	<GalleryGroup>
 		<span slot="group-title">Data investigation with graphics</span>
 		<span slot="items" class="content-box-flex column">
+			<GalleryItem parentWidth={innerWidth} parentHeight={innerHeight}>
+				<span slot="screenshot"><img src="https://www.reuters.com/graphics/VOLKSWAGEN-STRATEGY/dwvkzjxxmpm/graphic.jpg"></span>
+
+				<span slot="title"><a href="https://www.reuters.com/business/autos-transportation/volkswagen-is-reeling-china-can-evs-help-it-grow-us-2024-07-23/" target="_blank">Volkswagen is reeling in China. Can EVs help it grow in the US?</a></span>
+
+				<span slot="for" style="background-color: #F46917; padding-left:0.5em; padding-right:0.5em">
+					Reuters
+				</span>
+
+				<span slot="links">
+					<a href="https://www.reuters.com/business/autos-transportation/volkswagen-is-reeling-china-can-evs-help-it-grow-us-2024-07-23/" target="_blank">English</a>
+				</span>
+			</GalleryItem>
+			<GalleryItem parentWidth={innerWidth} parentHeight={innerHeight}>
+				<span slot="screenshot"><img src="https://www.reuters.com/graphics/THAILAND-ECONOMY/FACTORIES/xmpjnjlqzpr/graphic.jpg"></span>
+
+				<span slot="title"><a href="https://www.reuters.com/markets/asia/thai-economy-faces-upheaval-due-factory-closures-cheap-chinese-imports-2024-07-14/" target="_blank">Thai economy faces upheaval due to factory closures and cheap Chinese imports</a></span>
+
+				<span slot="for" style="background-color: #F46917; padding-left:0.5em; padding-right:0.5em">
+					Reuters <span style="font-size: 1em; font-style:oblique">(Additional reporting)</span>
+				</span>
+
+				<span slot="links">
+					<a href="https://www.reuters.com/markets/asia/thai-economy-faces-upheaval-due-factory-closures-cheap-chinese-imports-2024-07-14/" target="_blank">English</a>
+				</span>
+			</GalleryItem>
+			<GalleryItem parentWidth={innerWidth} parentHeight={innerHeight}>
+				<span slot="screenshot"><img src="https://www.reuters.com/graphics/GLOBAL-MARKETS/klvynnnmrpg/graphic.jpg"></span>
+
+				<span slot="title"><a href="https://www.reuters.com/markets/global-markets-h1-graphics-pix-2024-06-28/" target="_blank">Tech boom leads global markets through first half of 2024</a></span>
+
+				<span slot="for" style="background-color: #F46917; padding-left:0.5em; padding-right:0.5em">
+					Reuters <span style="font-size: 1em; font-style:oblique">(Additional reporting)</span>
+				</span>
+
+				<span slot="links">
+					<a href="https://www.reuters.com/markets/global-markets-h1-graphics-pix-2024-06-28/" target="_blank">English</a>
+				</span>
+			</GalleryItem>
 			<GalleryItem parentWidth={innerWidth} parentHeight={innerHeight}>
 				<span slot="screenshot"><img src="https://www.reuters.com/graphics/CHINA-PROPERTY/SCALE/znpnzjdqapl/cdn/images/CHINA_SOCIAL.jpg"></span>
 
@@ -148,25 +200,137 @@
 					<a href="https://www.reuters.com/world/asia-pacific/indian-tourists-flock-southeast-asia-chinas-reopening-falters-2023-07-17/" target="_blank">English</a>
 				</span>
 			</GalleryItem>
-			<GalleryItem parentWidth={innerWidth} parentHeight={innerHeight}>
-				<span slot="screenshot"><img src="https://pasitk.github.io/covid-impact-on-thailand-tourism/image/bg-1.jpg"></span>
-
-				<span slot="title"><a href="https://pasitk.github.io/covid-impact-on-thailand-tourism/" target="_blank">An insight into the impact of COVID-19 on Thailand's tourism industrys</a></span>
-
-				<span slot="for" style="background-color: #F46917; padding-left:0.5em; padding-right:0.5em">
-					Dissertation project at Cardiff University
-				</span>
-
-				<span slot="links">
-					<a href="https://pasitk.github.io/covid-impact-on-thailand-tourism/" target="_blank">English</a>
-				</span>
-			</GalleryItem>
 		</span>
 	</GalleryGroup>
 
 	<GalleryGroup>
 		<span slot="group-title">Graphics</span>
 		<span slot="items" class="content-box-flex column">
+			<GalleryItem parentWidth={innerWidth} parentHeight={innerHeight}>
+				<span slot="screenshot"><img src="https://www.reuters.com/graphics/INDONESIA-PALMOIL/PAPUA/akpeommbnpr/chart.png"></span>
+
+				<span slot="title">
+					<a href="https://www.reuters.com/world/asia-pacific/papuan-tribe-palm-oil-firms-battle-land-rights-indonesian-top-court-2024-06-20/" target="_blank">
+						Palm Oil Concessions in Boven Digoel Regency, Papua
+					</a>
+				</span>
+
+				<span slot="subtitle">
+					In the story "
+					<a class="subtitle_link" href="https://www.reuters.com/world/asia-pacific/papuan-tribe-palm-oil-firms-battle-land-rights-indonesian-top-court-2024-06-20/" target="_blank">
+						Papuan tribe, palm oil firms battle for land rights in Indonesian top court
+					</a>
+					"
+				</span>
+
+				<span slot="for" style="background-color: #F46917; padding-left:0.5em; padding-right:0.5em">
+					Reuters
+				</span>
+
+				<span slot="links">
+					<a href="https://www.reuters.com/world/asia-pacific/papuan-tribe-palm-oil-firms-battle-land-rights-indonesian-top-court-2024-06-20/" target="_blank">English</a>
+				</span>
+			</GalleryItem>
+			<GalleryItem parentWidth={innerWidth} parentHeight={innerHeight}>
+				<span slot="screenshot"><img src="https://www.reuters.com/graphics/SOFTWARE-AI/CHINA-NEWSBREAK/zdvxnmzowvx/graphic.jpg"></span>
+
+				<span slot="title">
+					<a href="https://www.reuters.com/technology/top-news-app-us-has-chinese-origins-writes-fiction-with-help-ai-2024-06-05/" target="_blank">
+						NewsBreak origins
+					</a>
+				</span>
+
+				<span slot="subtitle">
+					In the story "
+					<a class="subtitle_link" href="https://www.reuters.com/technology/top-news-app-us-has-chinese-origins-writes-fiction-with-help-ai-2024-06-05/" target="_blank">
+						NewsBreak: Most downloaded US news app has Chinese roots and 'writes fiction' using AI
+					</a>
+					"
+				</span>
+
+				<span slot="for" style="background-color: #F46917; padding-left:0.5em; padding-right:0.5em">
+					Reuters
+				</span>
+
+				<span slot="links">
+					<a href="https://www.reuters.com/technology/top-news-app-us-has-chinese-origins-writes-fiction-with-help-ai-2024-06-05/" target="_blank">English</a>
+				</span>
+			</GalleryItem>
+			<GalleryItem parentWidth={innerWidth} parentHeight={innerHeight}>
+				<span slot="screenshot"><img src="https://www.reuters.com/graphics/JAPAN-ECONOMY/WAGES-COSTCO/egpboyqbnvq/graphic.jpg"></span>
+
+				<span slot="title">
+					<a href="https://www.reuters.com/business/retail-consumer/costcos-japan-wages-provide-pathway-firing-up-nations-low-pay-economy-2024-06-06/" target="_blank">
+						Costco's hourly wages top prefectural minimum wages in Japan
+					</a>
+				</span>
+
+				<span slot="subtitle">
+					In the story "
+					<a class="subtitle_link" href="https://www.reuters.com/business/retail-consumer/costcos-japan-wages-provide-pathway-firing-up-nations-low-pay-economy-2024-06-06/" target="_blank">
+						Costco's Japan wages provide pathway to firing up nation's low pay, economy
+					</a>
+					"
+				</span>
+
+				<span slot="for" style="background-color: #F46917; padding-left:0.5em; padding-right:0.5em">
+					Reuters
+				</span>
+
+				<span slot="links">
+					<a href="https://www.reuters.com/business/retail-consumer/costcos-japan-wages-provide-pathway-firing-up-nations-low-pay-economy-2024-06-06/" target="_blank">English</a>
+				</span>
+			</GalleryItem>
+			<GalleryItem parentWidth={innerWidth} parentHeight={innerHeight}>
+				<span slot="screenshot"><img src="https://www.reuters.com/graphics/JAPAN-LNG/ASIA/zjpqynzdnpx/chart.png"></span>
+
+				<span slot="title">
+					<a href="https://www.reuters.com/business/energy/japan-builds-gas-markets-asia-boost-lng-trading-energy-security-2024-07-11/" target="_blank">
+						Japan’s key gas infrastructure projects in Asia
+					</a>
+				</span>
+
+				<span slot="subtitle">
+					In the story "
+					<a class="subtitle_link" href="https://www.reuters.com/business/energy/japan-builds-gas-markets-asia-boost-lng-trading-energy-security-2024-07-11/" target="_blank">
+						Japan builds gas markets in Asia to boost LNG trading, energy security
+					</a>
+					"
+				</span>
+
+				<span slot="for" style="background-color: #F46917; padding-left:0.5em; padding-right:0.5em">
+					Reuters
+				</span>
+
+				<span slot="links">
+					<a href="https://www.reuters.com/business/energy/japan-builds-gas-markets-asia-boost-lng-trading-energy-security-2024-07-11/" target="_blank">English</a>
+				</span>
+			</GalleryItem>
+			<GalleryItem parentWidth={innerWidth} parentHeight={innerHeight}>
+				<span slot="screenshot"><img src="https://www.reuters.com/graphics/ASIA-POPULATION/JAPAN-FERTILITY/dwpkzdnbovm/graphic.jpg"></span>
+
+				<span slot="title">
+					<a href="https://www.reuters.com/world/japan/japanese-runner-freezes-her-eggs-keep-dreams-motherhood-alive-2024-06-05/" target="_blank">
+						Concerns about the number of newborns in Japan
+					</a>
+				</span>
+
+				<span slot="subtitle">
+					In the story "
+					<a class="subtitle_link" href="https://www.reuters.com/world/japan/japanese-runner-freezes-her-eggs-keep-dreams-motherhood-alive-2024-06-05/" target="_blank">
+						As Japan's birthrate drops, runner freezes her eggs to sustain motherhood dream
+					</a>
+					"
+				</span>
+
+				<span slot="for" style="background-color: #F46917; padding-left:0.5em; padding-right:0.5em">
+					Reuters
+				</span>
+
+				<span slot="links">
+					<a href="https://www.reuters.com/world/japan/japanese-runner-freezes-her-eggs-keep-dreams-motherhood-alive-2024-06-05/" target="_blank">English</a>
+				</span>
+			</GalleryItem>
 			<GalleryItem parentWidth={innerWidth} parentHeight={innerHeight}>
 				<span slot="screenshot"><img src="https://www.reuters.com/graphics/CLIMATE-CHANGE/CORALS-THAILAND/byvrqoeoepe/chart.png"></span>
 
