@@ -22,6 +22,25 @@
 		<span slot="group-title">Interactive storytelling pages</span>
 		<span slot="items" class="content-box-flex column">
 			<GalleryItem parentWidth={innerWidth} parentHeight={innerHeight}>
+				<span slot="screenshot"><img src="https://www.reuters.com/graphics/JAPAN-YEN/EXPLAINER/xmvjnxjmbvr/cdn/images/share-image.jpg" class="screenshot_img"></span>
+
+				<span slot="title"><a href="https://www.reuters.com/graphics/JAPAN-YEN/EXPLAINER/xmvjnxjmbvr/" target="_blank">The yen’s rollercoaster ride</a></span>
+
+				<span slot="subtitle">
+					<a class="subtitle_link" href="https://www.reuters.com/graphics/JAPAN-YEN/EXPLAINER/xmvjnxjmbvr/" target="_blank">
+						The Bank of Japan’s interest rate rise last week rattled markets, triggering an unwinding of yen-funded carry trades. Here’s a look at how the BOJ has shaped the yen’s value over time.
+					</a>
+				</span>
+
+				<span slot="for" style="background-color: #F46917; padding-left:0.5em; padding-right:0.5em">
+					Reuters
+				</span>
+
+				<span slot="links">
+					<a href="https://www.reuters.com/graphics/JAPAN-YEN/EXPLAINER/xmvjnxjmbvr/" target="_blank">English</a>
+				</span>
+			</GalleryItem>
+			<GalleryItem parentWidth={innerWidth} parentHeight={innerHeight}>
 				<span slot="screenshot"><img src="https://graphics.thomsonreuters.com/data/reuters-graphics/homepage/images/share-image.a0f553ff237784aef9c7f006a2895cc8.jpg" class="screenshot_img"></span>
 
 				<span slot="title"><a href="https://www.reuters.com/graphics/CHINA-STOCKS/byprkdgenve/" target="_blank">China's stock market struggles</a></span>
