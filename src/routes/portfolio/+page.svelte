@@ -227,6 +227,64 @@
 		<span slot="group-title">Graphics</span>
 		<span slot="items" class="content-box-flex column">
 			<GalleryItem parentWidth={innerWidth} parentHeight={innerHeight}>
+				<span slot="screenshot"><img src="https://www.reuters.com/graphics/THAILAND-POLITICS/byvrqamxdpe/graphic.jpg"></span>
+
+				<span slot="title">
+					<a href="https://www.reuters.com/world/asia-pacific/baptism-fire-awaits-paetongtarn-thailand-gears-up-pm-vote-2024-08-16/" target="_blank">
+						Thai Prime Ministers from Shinawatra family and parties
+					</a>
+				</span>
+
+				<span slot="subtitle">
+					In the story "
+					<a class="subtitle_link" href="https://www.reuters.com/world/asia-pacific/baptism-fire-awaits-paetongtarn-thailand-gears-up-pm-vote-2024-08-16/" target="_blank">
+						Paetongtarn Shinawatra elected youngest Thai PM
+					</a>
+					"
+				</span>
+
+				<span slot="for" style="background-color: #F46917; padding-left:0.5em; padding-right:0.5em">
+					Reuters
+				</span>
+
+				<span slot="links">
+					<a href="https://www.reuters.com/world/asia-pacific/baptism-fire-awaits-paetongtarn-thailand-gears-up-pm-vote-2024-08-16/" target="_blank">English</a>
+				</span>
+			</GalleryItem>
+			<GalleryItem parentWidth={innerWidth} parentHeight={innerHeight}>
+				<span slot="screenshot"><img src="https://www.reuters.com/graphics/JAPAN-STOCKS/mopaqogbnpa/graphic.jpg"></span>
+
+				<span slot="title">
+					<a href="https://www.reuters.com/markets/us/global-markets-milestones-graphic-2024-08-05/" target="_blank">
+						Nikkei 225’s biggest fall in more than three decades
+					</a>
+				</span>
+
+				<span slot="subtitle">
+					In the story "
+					<a class="subtitle_link" href="https://www.reuters.com/markets/us/global-markets-milestones-graphic-2024-08-05/" target="_blank">
+						Markets give off 'Black Monday' vibes as stocks tank
+					</a>
+					", "
+					<a class="subtitle_link" href="https://www.reuters.com/markets/asia/japanese-shares-rebound-sharply-opening-trade-after-rout-2024-08-06/" target="_blank">
+						Japanese shares rebound sharply after biggest rout since 1987 Black Monday
+					</a>
+					", and "
+					<a class="subtitle_link" href="https://www.reuters.com/markets/asia/global-markets-view-asia-graphic-pix-2024-08-05/" target="_blank">
+						Morning Bid: Taking stock of Japan's historic market crash
+					</a>
+					"
+				</span>
+
+				<span slot="for" style="background-color: #F46917; padding-left:0.5em; padding-right:0.5em">
+					Reuters
+				</span>
+
+				<span slot="links">
+					English <a href="https://www.reuters.com/markets/us/global-markets-milestones-graphic-2024-08-05/" target="_blank">(1)</a>, <a href="https://www.reuters.com/markets/asia/japanese-shares-rebound-sharply-opening-trade-after-rout-2024-08-06/" target="_blank">(2)</a>, <a href="https://www.reuters.com/markets/asia/global-markets-view-asia-graphic-pix-2024-08-05/" target="_blank">(3)</a>
+				</span>
+			</GalleryItem>
+			<GalleryItem parentWidth={innerWidth} parentHeight={innerHeight}>
 				<span slot="screenshot"><img src="https://www.reuters.com/graphics/INDONESIA-PALMOIL/PAPUA/akpeommbnpr/chart.png"></span>
 
 				<span slot="title">
