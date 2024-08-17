@@ -85,6 +85,7 @@
 	{#each preloadImageUrls as image}
       <link rel="preload" as="image" href={image} fetchpriority="auto"/>
     {/each}
+	<title>Pasit Kongkunakornkul: About</title> 
 </svelte:head>
 
 <div class='content'>

@@ -11,6 +11,7 @@
 </script>
 
 <svelte:head>
+	<title>Pasit Kongkunakornkul: Portfolio</title> 
 </svelte:head>
 
 <svelte:window bind:innerWidth bind:outerWidth bind:innerHeight bind:outerHeight />
