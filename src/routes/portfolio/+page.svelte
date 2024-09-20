@@ -23,6 +23,25 @@
 		<span slot="group-title">Interactive storytelling pages</span>
 		<span slot="items" class="content-box-flex column">
 			<GalleryItem parentWidth={innerWidth} parentHeight={innerHeight}>
+				<span slot="screenshot"><img src="https://www.reuters.com/graphics/USA-MARKETS/RATES/jnvwamonqvw/cdn/images/share_card.jpg" class="screenshot_img"></span>
+
+				<span slot="title"><a href="https://www.reuters.com/graphics/USA-MARKETS/RATES/jnvwamonqvw/" target="_blank">How markets could fare after first US rate cut</a></span>
+
+				<span slot="subtitle">
+					<a class="subtitle_link" href="https://www.reuters.com/graphics/USA-MARKETS/RATES/jnvwamonqvw/" target="_blank">
+						The Federal Reserve is set to cut U.S. interest rates for the first time since the pandemic. History shows the state of the economy will play a crucial role in how markets respond.
+					</a>
+				</span>
+
+				<span slot="for" style="background-color: #F46917; padding-left:0.5em; padding-right:0.5em">
+					Reuters
+				</span>
+
+				<span slot="links">
+					<a href="https://www.reuters.com/graphics/USA-MARKETS/RATES/jnvwamonqvw/" target="_blank">English</a>
+				</span>
+			</GalleryItem>
+			<GalleryItem parentWidth={innerWidth} parentHeight={innerHeight}>
 				<span slot="screenshot"><img src="https://www.reuters.com/graphics/JAPAN-YEN/EXPLAINER/xmvjnxjmbvr/cdn/images/share-image.jpg" class="screenshot_img"></span>
 
 				<span slot="title"><a href="https://www.reuters.com/graphics/JAPAN-YEN/EXPLAINER/xmvjnxjmbvr/" target="_blank">The yen’s rollercoaster ride</a></span>
@@ -226,6 +245,31 @@
 	<GalleryGroup>
 		<span slot="group-title">Graphics</span>
 		<span slot="items" class="content-box-flex column">
+			<GalleryItem parentWidth={innerWidth} parentHeight={innerHeight}>
+				<span slot="screenshot"><img src="https://www.reuters.com/graphics/CHINA-HUAWEITECH/APPLE/egvbornywpq/graphic.jpg"></span>
+
+				<span slot="title">
+					<a href="https://www.reuters.com/technology/artificial-intelligence/how-ai-features-iphone-rival-smartphones-stack-up-2024-09-10/" target="_blank">
+						Apple’s market share in Chinese smartphone market falls to sixth rank
+					</a>
+				</span>
+
+				<span slot="subtitle">
+					In the story "
+					<a class="subtitle_link" href="https://www.reuters.com/technology/artificial-intelligence/how-ai-features-iphone-rival-smartphones-stack-up-2024-09-10/" target="_blank">
+						How AI features of iPhone and rival smartphones stack up
+					</a>
+					"
+				</span>
+
+				<span slot="for" style="background-color: #F46917; padding-left:0.5em; padding-right:0.5em">
+					Reuters
+				</span>
+
+				<span slot="links">
+					<a href="https://www.reuters.com/technology/artificial-intelligence/how-ai-features-iphone-rival-smartphones-stack-up-2024-09-10/" target="_blank">English</a>
+				</span>
+			</GalleryItem>
 			<GalleryItem parentWidth={innerWidth} parentHeight={innerHeight}>
 				<span slot="screenshot"><img src="https://www.reuters.com/graphics/THAILAND-POLITICS/byvrqamxdpe/graphic.jpg"></span>
 
