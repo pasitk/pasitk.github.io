@@ -23,6 +23,25 @@
 		<span slot="group-title">Interactive storytelling pages</span>
 		<span slot="items" class="content-box-flex column">
 			<GalleryItem parentWidth={innerWidth} parentHeight={innerHeight}>
+				<span slot="screenshot"><img src="https://www.reuters.com/graphics/USA-CHINA/SOLAR-HISTORY/gdpzkdeqlvw/cdn/images/share-image.jpg" class="screenshot_img"></span>
+
+				<span slot="title"><a href="https://www.reuters.com/graphics/USA-CHINA/SOLAR-HISTORY/gdpzkdeqlvw/" target="_blank">US solar tariffs can't keep up with Chinese firms</a></span>
+
+				<span slot="subtitle">
+					<a class="subtitle_link" href="https://www.reuters.com/graphics/USA-CHINA/SOLAR-HISTORY/gdpzkdeqlvw/" target="_blank">
+						For twelve years, the United States has waged a tariff war against a rising tide of Chinese solar imports. And for twelve years, Chinese manufacturers have found ways to sidestep the tariffs.
+					</a>
+				</span>
+
+				<span slot="for" style="background-color: #F46917; padding-left:0.5em; padding-right:0.5em">
+					Reuters
+				</span>
+
+				<span slot="links">
+					<a href="https://www.reuters.com/graphics/USA-CHINA/SOLAR-HISTORY/gdpzkdeqlvw/" target="_blank">English</a>
+				</span>
+			</GalleryItem>
+			<GalleryItem parentWidth={innerWidth} parentHeight={innerHeight}>
 				<span slot="screenshot"><img src="https://www.reuters.com/graphics/USA-MARKETS/RATES/jnvwamonqvw/cdn/images/share_card.jpg" class="screenshot_img"></span>
 
 				<span slot="title"><a href="https://www.reuters.com/graphics/USA-MARKETS/RATES/jnvwamonqvw/" target="_blank">How markets could fare after first US rate cut</a></span>
