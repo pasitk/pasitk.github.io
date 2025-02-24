@@ -1,9 +1,15 @@
 <script>
-	export let parentWidth, parentHeight;
+	export let parentWidth, parentHeight, awarded;
 </script>
 
-<article class="gallery-item" style="--item-width:{parentWidth}px; --item-height:{parentHeight}px;">
-    <div class="screenshot">
+<article class="gallery-item {awarded}" style="--item-width:{parentWidth}px; --item-height:{parentHeight}px;">
+    <div class="award-name" style="display:{awarded==null?'none':'block'}">
+		<slot name="award-name">
+			<span class="missing"></span>
+		</slot>
+	</div>
+
+	<div class="screenshot">
 		<slot name="screenshot">
 			<span class="missing">(Screenshot here)</span>
 		</slot>
@@ -42,16 +48,22 @@
 	.gallery-item {
 		/* max-width: calc((var(--item-width) - 25em)/3); */
 		border: 1px solid #aaa;
-		border-radius: 2px;
 		box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
 		padding-bottom: 1.5em;
 		background-color: #333333;
 		color: #FFFFFF;
-		border-radius: 0 0 1em 1em;
+		border-radius: 0em 0em 1em 1em;
 
 		display: inline-block;
 		width: 100%;
 		margin-bottom: 2em;
+	}
+
+	.award-1 {
+		border: 3px solid rgb(223,189,105) !important;
+		background: rgb(223,189,105) !important;
+		background: linear-gradient(135deg, rgba(223,189,105,1) 0%, rgba(146,111,52,1) 100%) !important;
+		border-radius: 1em 1em 1em 1em !important;
 	}
 
     .screenshot {
@@ -77,8 +89,15 @@
 		margin-top: 0.5em;
 	}
 
-    .title:hover, .links > span > a:hover {
-        color:#CCCCCC;
+	.award-name {
+		font-size: 1.2em;
+		padding: 2%;
+		font-weight: 600;
+		color: #645215;
+	}
+
+    .title:hover, .links > span:hover {
+        text-decoration: underline;
     }
 
 	.for {

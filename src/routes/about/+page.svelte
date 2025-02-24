@@ -179,9 +179,9 @@
 					</div>
 					<div>
 						<ul>
-							<li>Create daily breaking news graphics and develop interactive graphics pages across markets, economics and companies beats around the world.</li>
-							<li>Generate story and graphics ideas from the financial news of the day.</li>
-							<li>Also support data and graphics for Thailand's big stories outside economics and financial side, e.g., general elections in Thailand and Indonesia.</li>
+							<li>Delivers high-quality financial and economic graphics and interactive storytelling for Reuters' global audience, enhancing understanding of complex stories.</li>
+							<li>Curates and analyzes data for political and general news graphics in Southeast Asia.</li>
+							<li>Achievement: Finalist for the 2022 and 2024 Reuters Journalist of the Year Awards in the Graphics category.</li>
 						</ul>
 					</div>
 				</div>
@@ -194,33 +194,24 @@
 						<div>THE STANDARD (Thai online news outlet)  •  Bangkok, Thailand</div>
 					</div>
 					<div class="sub-content">
-						<b>December 2020 - August 2022: Data journalist</b>
+						<b>December 2020 - August 2022: Data Journalist and Domestic In-depth News Reporter</b>
 						<ul>
-							<li>Produced data-driven journalistic outputs in topics including: Politics, Social, Human Rights, Environment (including related issues).</li>
-						</ul>
-					</div>
-					<div class="sub-content">
-						<b>December 2020 - August 2022: In-depth journalist - domestic news</b>
-						<ul>
-							<li>Produced in-depth features and 'key message' features in various topics for domestic news desk: Education, Media, Crime, Politics, etc.</li>
+							<li>Produced data-driven features and led interactive web projects on politics, environment, and human rights.</li>
+							<li>Key Project: Data investigation on PM2.5 pollution in Thailand, recognized as a finalist for the 2021 Best Environmental Conservation News Award (ThaiSEJ).</li>
+							<li>Impact: Human rights reporting contributed to legislative debates, culminating in the passage of anti-torture laws.</li>
 						</ul>
 					</div>
 					<div class="sub-content">
 						<b>September 2019 - August 2022: News reporter - international news</b><br/>
-						Rewrote news articles, produced in-depth features and 'key message' features for international news desk.
 						<ul>
-							<li>Sep 2019 - Aug 2020: Covered stories in the UK including general situations, Brexit, and COVID-19</li>
-							<li>Sep 2020 - Nov 2020: Covered US Election articles and producing explainer videos</li>
-							<li>Nov 2020 - Aug 2022: Covered general foreign news reports, mainly focused on COVID-19 situation and vaccines, Russia-Ukraine war, geopolitics, and other general situations</li>
+							<li>Reported breaking news and in-depth stories on geopolitics, COVID-19, climate change, culture, and other global stories.</li>
+							<li>Achievement: Delivered exclusive coverage of events like Brexit, how people in the UK and the U.S. lived under COVID lockdowns and interactive visualization about the Russia-Ukraine war.</li>
 						</ul>
 					</div>
 					<div class="sub-content">
 						<b>April 2019 - August 2019: Daily Newscast News Researcher and Scriptwriter</b><br/>
-						Created content for more than 75 episodes of evening newscasts on Facebook and YouTube.
 						<ul>
-							<li>Selected stories for the anchors, focusing on politics, economics, and international news.</li>
-							<li>Researched, interviewed sources, wrote, recorded, and edited stories and scripts for use on the air.</li>
-							<li>Liaised with producers and graphics team to prepare visual resources for use on air.</li>
+							<li>Researched and wrote scripts for daily newscasts, diversifying news topics and developing detailed narratives. Prepared visual resources and interviewed sources to enhance story quality.</li>
 						</ul>
 					</div>
 				</div>
@@ -234,10 +225,8 @@
 					</div>
 					<div class="sub-content">
 						<ul>
-							<li>Produced dozens of in-depth features and hundreds of breaking news articles for online platforms.</li>
-							<li>Shot and edited news feature videos / Designed many explainer graphics to expand news understanding.</li>
-							<li>Managed all online platforms (Website, Facebook, Twitter, YouTube, IG) and analysed the platforms' performances.</li>
-							<li>Supervised a junior online reporter.</li>
+							<li>Managed online news platforms, produced explainer graphics, and authored breaking news and feature articles.</li>
+							<li>Achievement: Achieved the highest Facebook engagement growth among Thai news outlets, with a 7,700% rise in average post engagement and 6,000% growth in organic impressions per day within nine months.</li>
 						</ul>
 					</div>
 				</div>
@@ -247,13 +236,12 @@
 					<div class="content-header-three">
 						<div class="light">2017-2018</div>
 						<div class="job-or-degree-title semi-bold">Content Editor and Software Coordinator</div>
-						<div>BEC-Tero Entertainment Plc. (A content provider for Channel 3, one of the most popular national digital terrestrial TV channels in Thailand)  •  Bangkok, Thailand</div>
+						<div>BEC-Tero Entertainment Plc. (A content provider for Thai Television Channel 3, the most popular digital terrestrial TV channel in Thailand)  •  Bangkok, Thailand</div>
 					</div>
 					<div class="sub-content">
 						<ul>
-							<li>Produced dozens of in-depth features and hundreds of breaking news articles for online platforms.</li>
-							<li>Shot and edited news feature videos / Designed many explainer graphics to expand news understanding.</li>
-							<li>Anchored Facebook Live news reports from the field.</li>
+							<li>Enhanced online news reporting with in-depth features, explainer graphics, and field reports via Facebook Live.</li>
+							<li>Achievement: Winner of Thailand Zocial Awards 2017 as the news program with the highest online growth and engagement.</li>
 						</ul>
 					</div>
 				</div>
@@ -267,8 +255,8 @@
 					</div>
 					<div class="sub-content">
 						<ul>
-							<li>Implemented and maintained online stock trading web and Android applications in front-end parts. These applications are the most popular stock trading applications in Thailand.</li>
-							<li>Designed user interfaces and user experience for these applications.</li>
+							<li>Developed front-end features for stock trading applications, enhancing user experience and functionality.</li>
+							<li>Impact: Advanced the rise in internet trading value in Thailand, reaching 38% of the total market share in 2015, and advanced the increase in daily average securities trading value, which was the highest among Southeast Asian countries between 2014 and 2017.</li>
 						</ul>
 					</div>
 				</div>
@@ -340,18 +328,23 @@
 	</Scroller>
 	<div class='flourish-credit'><a href='https://flourish.studio/' target='_blank'>Created with flourish.studio (https://flourish.studio)</a></div>
 
-	<div class="content-header-two bookmark" in:fly={{ y: 50, duration: 2000, delay: 300 }}>Awards and recognition</div>
+	<div class="content-header-two bookmark" in:fly={{ y: 50, duration: 2000, delay: 300 }}>Awards, Recognitions, and Certifications</div>
 	<div class="full-width-content-box" in:scale={{delay: 600, opacity: 0, duration: 1000}}>
 		<ul>
-			<li>
-				<span class="semi-bold job-or-degree-title">Chevening Scholarship: 2019-2020 cohort</span><br/>
-				An international scholarship, funded by the British Foreign, Commonwealth and Development Office, which enables future leaders to study in the UK whilst joining a global community of professionals creating positive change worldwide.
+			<li><span class="semi-bold job-or-degree-title">Finalist: Reuters Journalists of the Year Awards 2024 (Graphics/Visualization of the year)</span><br/>
+				From the story: <a href="https://www.reuters.com/graphics/JAPAN-YEN/EXPLAINER/xmvjnxjmbvr/" target="_blank">"The yen’s rollercoaster ride"</a>
+			</li>
+			<li><span class="semi-bold job-or-degree-title">Certification in Supervised Machine Learning (2025)</span><br/>
+				Issued by DeepLearning.AI and Stanford Online.
+			</li>
+			<li><span class="semi-bold job-or-degree-title">Finalist: Reuters Journalists of the Year Awards 2022 (Graphics of the year)</span>
 			</li>
 			<li><span class="semi-bold job-or-degree-title">Finalist: Best Natural and Environmental Conservation News Award 2021</span><br/>
-				My data journalism project about the fine particulate matter (PM2.5) problem in Thailand was selected as one of the 2021 Best Natural and Environmental Conservation News Awards finalists by the Thai Society of Environmental Journalists (ThaiSEJ) under the Thai Journalists Association.
+				From the investigation pieces about PM2.5 pollution problem in Thailand, awarded by the Thai Society of Environmental Journalists (ThaiSEJ) under the Thai Journalists Association.
 			</li>
-			<li><span class="semi-bold job-or-degree-title">Finalist: Reuters Journalists of the Year Awards 2022 (Graphics of the year)</span><br/>
-				The Financial Graphics team, which I am a member, was selected as one of the 2022 Reuters Journalists of the Year Awards finalists in the Graphic of the Year category.
+			<li>
+				<span class="semi-bold job-or-degree-title">Chevening Scholarship: 2019-2020 cohort</span><br/>
+				Awarded by the UK Government for academic and leadership excellence.
 			</li>
 		</ul>
 	</div>

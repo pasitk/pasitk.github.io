@@ -22,15 +22,36 @@
 	<GalleryGroup>
 		<span slot="group-title">Interactive storytelling pages</span>
 		<span slot="items" class="content-box-flex column">
+			<GalleryItem parentWidth={innerWidth} parentHeight={innerHeight} awarded="award-1">
+				<span slot="award-name">
+					<ul>
+						<li class="award-bullet">Reuters Journalist of the Year 2024:<br>Finalist in Graphics/Visualization</li>
+					</ul>
+				</span>
+
+				<span slot="screenshot"><img src="https://www.reuters.com/graphics/JAPAN-YEN/EXPLAINER/xmvjnxjmbvr/cdn/images/share-image.jpg" class="screenshot_img"></span>
+
+				<span slot="title"><a href="https://www.reuters.com/graphics/JAPAN-YEN/EXPLAINER/xmvjnxjmbvr/" target="_blank">The yen’s rollercoaster ride</a></span>
+
+				<span slot="subtitle">
+						The Bank of Japan’s interest rate rise last week rattled markets, triggering an unwinding of yen-funded carry trades. Here’s a look at how the BOJ has shaped the yen’s value over time.
+				</span>
+
+				<span slot="for" style="background-color: #F46917; padding-left:0.5em; padding-right:0.5em">
+					Reuters
+				</span>
+
+				<span slot="links">
+					<a href="https://www.reuters.com/graphics/JAPAN-YEN/EXPLAINER/xmvjnxjmbvr/" target="_blank">English</a>
+				</span>
+			</GalleryItem>
 			<GalleryItem parentWidth={innerWidth} parentHeight={innerHeight}>
 				<span slot="screenshot"><img src="https://www.reuters.com/graphics/USA-CHINA/SOLAR-HISTORY/gdpzkdeqlvw/cdn/images/share-image.jpg" class="screenshot_img"></span>
 
 				<span slot="title"><a href="https://www.reuters.com/graphics/USA-CHINA/SOLAR-HISTORY/gdpzkdeqlvw/" target="_blank">US solar tariffs can't keep up with Chinese firms</a></span>
 
 				<span slot="subtitle">
-					<a class="subtitle_link" href="https://www.reuters.com/graphics/USA-CHINA/SOLAR-HISTORY/gdpzkdeqlvw/" target="_blank">
 						For twelve years, the United States has waged a tariff war against a rising tide of Chinese solar imports. And for twelve years, Chinese manufacturers have found ways to sidestep the tariffs.
-					</a>
 				</span>
 
 				<span slot="for" style="background-color: #F46917; padding-left:0.5em; padding-right:0.5em">
@@ -47,9 +68,7 @@
 				<span slot="title"><a href="https://www.reuters.com/graphics/USA-MARKETS/RATES/jnvwamonqvw/" target="_blank">How markets could fare after first US rate cut</a></span>
 
 				<span slot="subtitle">
-					<a class="subtitle_link" href="https://www.reuters.com/graphics/USA-MARKETS/RATES/jnvwamonqvw/" target="_blank">
 						The Federal Reserve is set to cut U.S. interest rates for the first time since the pandemic. History shows the state of the economy will play a crucial role in how markets respond.
-					</a>
 				</span>
 
 				<span slot="for" style="background-color: #F46917; padding-left:0.5em; padding-right:0.5em">
@@ -61,33 +80,12 @@
 				</span>
 			</GalleryItem>
 			<GalleryItem parentWidth={innerWidth} parentHeight={innerHeight}>
-				<span slot="screenshot"><img src="https://www.reuters.com/graphics/JAPAN-YEN/EXPLAINER/xmvjnxjmbvr/cdn/images/share-image.jpg" class="screenshot_img"></span>
-
-				<span slot="title"><a href="https://www.reuters.com/graphics/JAPAN-YEN/EXPLAINER/xmvjnxjmbvr/" target="_blank">The yen’s rollercoaster ride</a></span>
-
-				<span slot="subtitle">
-					<a class="subtitle_link" href="https://www.reuters.com/graphics/JAPAN-YEN/EXPLAINER/xmvjnxjmbvr/" target="_blank">
-						The Bank of Japan’s interest rate rise last week rattled markets, triggering an unwinding of yen-funded carry trades. Here’s a look at how the BOJ has shaped the yen’s value over time.
-					</a>
-				</span>
-
-				<span slot="for" style="background-color: #F46917; padding-left:0.5em; padding-right:0.5em">
-					Reuters
-				</span>
-
-				<span slot="links">
-					<a href="https://www.reuters.com/graphics/JAPAN-YEN/EXPLAINER/xmvjnxjmbvr/" target="_blank">English</a>
-				</span>
-			</GalleryItem>
-			<GalleryItem parentWidth={innerWidth} parentHeight={innerHeight}>
 				<span slot="screenshot"><img src="https://graphics.thomsonreuters.com/data/reuters-graphics/homepage/images/share-image.a0f553ff237784aef9c7f006a2895cc8.jpg" class="screenshot_img"></span>
 
 				<span slot="title"><a href="https://www.reuters.com/graphics/CHINA-STOCKS/byprkdgenve/" target="_blank">China's stock market struggles</a></span>
 
 				<span slot="subtitle">
-					<a class="subtitle_link" href="https://www.reuters.com/graphics/CHINA-STOCKS/byprkdgenve/" target="_blank">
 						Chinese stock indexes touched multi-year lows in February.
-					</a>
 				</span>
 
 				<span slot="for" style="background-color: #F46917; padding-left:0.5em; padding-right:0.5em">
@@ -104,9 +102,7 @@
 				<span slot="title"><a href="https://www.reuters.com/graphics/CHINA-USA/TRADE/zdvxneaaxvx/" target="_blank">Analysis: What overcapacity?</a></span>
 
 				<span slot="subtitle">
-					<a class="subtitle_link" href="https://www.reuters.com/graphics/CHINA-USA/TRADE/zdvxneaaxvx/" target="_blank">
 						China says its industries are simply more competitive.
-					</a>
 				</span>
 
 				<span slot="for" style="background-color: #F46917; padding-left:0.5em; padding-right:0.5em">
@@ -123,9 +119,7 @@
 				<span slot="title"><a href="https://www.reuters.com/graphics/SAFRICA-ELECTION/ECONOMY/egpbonzrgvq/" target="_blank">Equality eludes South Africa 30 years after apartheid</a></span>
 
 				<span slot="subtitle">
-					<a class="subtitle_link" href="https://www.reuters.com/graphics/SAFRICA-ELECTION/ECONOMY/egpbonzrgvq/" target="_blank">
 						While strides have been made in delivering education, housing and welfare benefits to a wider share of society, South Africa has yet to overcome the legacy of apartheid and deliver a better life for all.
-					</a>
 				</span>
 
 				<span slot="for" style="background-color: #F46917; padding-left:0.5em; padding-right:0.5em">
@@ -265,6 +259,31 @@
 		<span slot="group-title">Graphics</span>
 		<span slot="items" class="content-box-flex column">
 			<GalleryItem parentWidth={innerWidth} parentHeight={innerHeight}>
+				<span slot="screenshot"><img src="https://www.reuters.com/graphics/USA-TRUMP/TARIFFS/movawekqkva/graphic.jpg"></span>
+
+				<span slot="title">
+					<a href="https://www.reuters.com/markets/asia/trade-war-or-not-global-investors-turn-even-more-cautious-china-2025-02-05/" target="_blank">
+						China's markets as trade frictions rise in 2025
+					</a>
+				</span>
+
+				<span slot="subtitle">
+					In the story "
+					<a class="subtitle_link" href="https://www.reuters.com/markets/asia/trade-war-or-not-global-investors-turn-even-more-cautious-china-2025-02-05/" target="_blank">
+						Trade war or not, global investors turn even more cautious on China
+					</a>
+					"
+				</span>
+
+				<span slot="for" style="background-color: #F46917; padding-left:0.5em; padding-right:0.5em">
+					Reuters
+				</span>
+
+				<span slot="links">
+					<a href="https://www.reuters.com/markets/asia/trade-war-or-not-global-investors-turn-even-more-cautious-china-2025-02-05/" target="_blank">English</a>
+				</span>
+			</GalleryItem>
+			<GalleryItem parentWidth={innerWidth} parentHeight={innerHeight}>
 				<span slot="screenshot"><img src="https://www.reuters.com/graphics/CHINA-HUAWEITECH/APPLE/egvbornywpq/graphic.jpg"></span>
 
 				<span slot="title">
@@ -344,7 +363,7 @@
 				</span>
 
 				<span slot="links">
-					English <a href="https://www.reuters.com/markets/us/global-markets-milestones-graphic-2024-08-05/" target="_blank">(1)</a>, <a href="https://www.reuters.com/markets/asia/japanese-shares-rebound-sharply-opening-trade-after-rout-2024-08-06/" target="_blank">(2)</a>, <a href="https://www.reuters.com/markets/asia/global-markets-view-asia-graphic-pix-2024-08-05/" target="_blank">(3)</a>
+					English <a href="https://www.reuters.com/markets/us/global-markets-milestones-graphic-2024-08-05/" class="subtitle_link" target="_blank">(1)</a>, <a href="https://www.reuters.com/markets/asia/japanese-shares-rebound-sharply-opening-trade-after-rout-2024-08-06/" class="subtitle_link" target="_blank">(2)</a>, <a href="https://www.reuters.com/markets/asia/global-markets-view-asia-graphic-pix-2024-08-05/" class="subtitle_link" target="_blank">(3)</a>
 				</span>
 			</GalleryItem>
 			<GalleryItem parentWidth={innerWidth} parentHeight={innerHeight}>
@@ -645,32 +664,6 @@
 
 				<span slot="links">
 					<a href="https://www.reuters.com/world/china/chinese-provinces-target-modest-2024-growth-after-missing-previous-goals-2024-01-26/" target="_blank">English</a>
-				</span>
-			</GalleryItem>
-			<GalleryItem parentWidth={innerWidth} parentHeight={innerHeight}>
-				<span slot="screenshot"><img src="https://www.reuters.com/graphics/CHINA-MARKETS/INVESTORS/gkvldxmlqvb/chart.png"></span>
-
-				<span slot="title">
-					<a href="https://www.reuters.com/world/china/investors-give-up-futile-wait-china-fix-economy-2024-01-23/" target="_blank">
-						Chinese stock market turbulence
-					</a>
-				</span>
-
-				<span slot="subtitle">
-					In the story "
-					<a class="subtitle_link" href="https://www.reuters.com/world/china/investors-give-up-futile-wait-china-fix-economy-2024-01-23/" target="_blank">
-						Investors give up futile wait for China to fix economy
-					</a>
-					"
-				</span>
-
-				<span slot="for" style="background-color: #F46917; padding-left:0.5em; padding-right:0.5em">
-					Reuters
-				</span>
-
-				<span slot="links">
-					<a href="https://www.reuters.com/world/china/investors-give-up-futile-wait-china-fix-economy-2024-01-23/" target="_blank">English</a>,
-					<a href="https://www.reuters.com/graphics/CHINA-MARKETS/INVESTORS/jnvwxweyrpw/chart.png" target="_blank">Spanish</a>
 				</span>
 			</GalleryItem>
 			<GalleryItem parentWidth={innerWidth} parentHeight={innerHeight}>
@@ -1270,12 +1263,21 @@
 		height: max-content;
 	}
 
-	.subtitle_link:hover {
-		color: #CCCCCC;
-	}
-
 	.screenshot_img {
 		width: 100%;
+	}
+
+	.subtitle_link:hover {
+		text-decoration: underline;
+	}
+
+	.award-bullet {
+		padding-left: 1.5rem;
+		text-indent: -1.6rem;
+	}
+
+	.award-bullet::before {
+		content: "🏅 ";
 	}
 
 </style>
