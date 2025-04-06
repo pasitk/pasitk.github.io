@@ -3,7 +3,7 @@
 </script>
 
 <article class="gallery-item {awarded}" style="--item-width:{parentWidth}px; --item-height:{parentHeight}px;">
-    <div class="award-name" style="display:{awarded==null?'none':'block'}">
+    <div class="{awarded=='award-2'?'big-story-name':'award-name'}" style="display:{awarded==null?'none':'block'}">
 		<slot name="award-name">
 			<span class="missing"></span>
 		</slot>
@@ -66,6 +66,13 @@
 		border-radius: 1em 1em 1em 1em !important;
 	}
 
+	.award-2 {
+		border: 3px solid #D2665A !important;
+		background: #D2665A !important;
+		background: linear-gradient(135deg, #D2665A 0%, #B82132 100%) !important;
+		border-radius: 1em 1em 1em 1em !important;
+	}
+
     .screenshot {
         /* height: calc(((var(--item-width) - 20em)/3) * 9 / 16); */
 		margin-bottom: 1em;
@@ -94,6 +101,13 @@
 		padding: 2%;
 		font-weight: 600;
 		color: #645215;
+	}
+
+	.big-story-name {
+		font-size: 1.2em;
+		padding: 2%;
+		font-weight: 600;
+		color: #FFFFFF;
 	}
 
     .title:hover, .links > span:hover {

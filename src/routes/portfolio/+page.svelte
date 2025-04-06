@@ -22,6 +22,29 @@
 	<GalleryGroup>
 		<span slot="group-title">Interactive storytelling pages</span>
 		<span slot="items" class="content-box-flex column">
+			<GalleryItem parentWidth={innerWidth} parentHeight={innerHeight} awarded="award-2">
+				<span slot="award-name">
+					<ul>
+						<li class="big-story-bullet"><span style="text-transform:uppercase">Big story:</span> Trump's tariffs</li>
+					</ul>
+				</span>
+
+				<span slot="screenshot"><img src="https://www.reuters.com/resizer/v2/JXYJ5Y2QTZDCXERH7LQ4BKEXJY.jpg?auth=d03ffa0c7397330e8a0fe64192cb4841d93d1bd0eb44e4676f0f8ccaf176df77&width=1200&quality=80" class="screenshot_img"></span>
+
+				<span slot="title"><a href="https://www.reuters.com/graphics/USA-TRUMP/TARIFFS/movayyxzjva/" target="_blank">The list of proposed US tariffs</a></span>
+
+				<span slot="subtitle">
+					U.S. President Donald Trump disrupted a global trading system that had been in place for over 75 years by introducing a new baseline 10% U.S. tariff on goods from all economies. Higher tariff rates were imposed on some economies, based on White House figures. This page shows the list of countries which were impacted by these tariffs and impact on the markets.
+				</span>
+
+				<span slot="for" style="background-color: #F46917; padding-left:0.5em; padding-right:0.5em">
+					Reuters
+				</span>
+
+				<span slot="links">
+					<a href="https://www.reuters.com/graphics/USA-TRUMP/TARIFFS/movayyxzjva/" target="_blank">English</a>
+				</span>
+			</GalleryItem>
 			<GalleryItem parentWidth={innerWidth} parentHeight={innerHeight} awarded="award-1">
 				<span slot="award-name">
 					<ul>
@@ -148,6 +171,19 @@
 	<GalleryGroup>
 		<span slot="group-title">Data investigation with graphics</span>
 		<span slot="items" class="content-box-flex column">
+			<GalleryItem parentWidth={innerWidth} parentHeight={innerHeight}>
+				<span slot="screenshot"><img src="https://www.reuters.com/graphics/ASIA-POPULATION/JAPAN-ROBOTS/klvymkrxrvg/chart.png"></span>
+
+				<span slot="title"><a href="https://www.reuters.com/technology/artificial-intelligence/ai-robots-may-hold-key-nursing-japans-ageing-population-2025-02-28/" target="_blank">AI robots may hold key to nursing Japan's ageing population</a></span>
+
+				<span slot="for" style="background-color: #F46917; padding-left:0.5em; padding-right:0.5em">
+					Reuters
+				</span>
+
+				<span slot="links">
+					<a href="https://www.reuters.com/technology/artificial-intelligence/ai-robots-may-hold-key-nursing-japans-ageing-population-2025-02-28/" target="_blank">English</a>
+				</span>
+			</GalleryItem>
 			<GalleryItem parentWidth={innerWidth} parentHeight={innerHeight}>
 				<span slot="screenshot"><img src="https://www.reuters.com/graphics/VOLKSWAGEN-STRATEGY/dwvkzjxxmpm/graphic.jpg"></span>
 
@@ -1271,13 +1307,17 @@
 		text-decoration: underline;
 	}
 
-	.award-bullet {
+	.award-bullet, .big-story-bullet {
 		padding-left: 1.5rem;
 		text-indent: -1.6rem;
 	}
 
 	.award-bullet::before {
 		content: "🏅 ";
+	}
+
+	.big-story-bullet::before {
+		content: "🚨 ";
 	}
 
 </style>
