@@ -13,19 +13,19 @@
 		<div class="short-bio">
 			<div class="name semi-bold" in:fly={{ y: 50, duration: 2000 }}>Pasit</div>
 			<div class="five-times surname" in:fly={{ y: 50, duration: 2000, delay: 300 }}>Kongkunakornkul</div>
-			<div class="job-headline light" in:fly={{ y: 50, duration: 2000, delay: 600 }}>Data and graphics journalist</div>
-			<div class="job-headline-desc light" style="--c:white;--w:30px;--b:10px" in:scale={{delay: 600, opacity: 0, duration: 1000}}><span in:fly={{ y: 50, duration: 2000, delay: 900 }}>Pasit Kongkunakornkul is a Financial Graphics Reporter for the Reuters Graphics team at the Reuters news agency. He creates daily breaking news graphics and develop interactive graphics pages across markets, economics and companies beats worldwide and generates story and graphics ideas from the financial news of the day. He also supports data and graphics reporting for the big stories outside economics and financial side, e.g., general elections in Thailand and Indonesia.</span></div>
+			<div class="job-headline light" in:fly={{ y: 50, duration: 2000, delay: 600 }}>Data and graphics journalist | Reuters</div>
+			<div class="job-headline-desc light" style="--c:white;--w:30px;--b:10px" in:scale={{delay: 600, opacity: 0, duration: 1000}}><span in:fly={{ y: 50, duration: 2000, delay: 900 }}>I deliver high-quality graphics and interactive storytelling related to economics, business, finance, and their intersections with other coverage areas (politics, the environment, technology, etc.) for Reuters' global audience.</span></div>
 		</div>
 	</div>
 {/if}
 <style>
 	@media (max-width: 360px) {
 		.name {
-			font-size: 4em;
+			font-size: 3em;
 		}
 
 		.surname {
-			font-size: 2em;
+			font-size: 1.5em;
 		}
 
 		.job-headline {
@@ -48,15 +48,15 @@
 
 	@media (min-width: 361px) and (max-width: 640px) {
 		.name {
-			font-size: 5em;
+			font-size: 4em;
 		}
 
 		.surname {
-			font-size: 2.75em;
+			font-size: 2.5em;
 		}
 
 		.job-headline {
-			font-size: 1.5em;
+			font-size: 1.25em;
 		}
 
 		.short-bio {
@@ -75,15 +75,15 @@
 
 	@media (min-width: 641px) and (max-width: 1024px) {
 		.name {
-			font-size: 6em;
+			font-size: 5em;
 		}
 
 		.surname {
-			font-size: 4em;
+			font-size: 3.5em;
 		}
 
 		.job-headline {
-			font-size: 2em;
+			font-size: 1.5em;
 		}
 
 		.short-bio {
@@ -102,15 +102,15 @@
 
 	@media (min-width: 1024px) {
 		.name {
-			font-size: 7em;
+			font-size: 6em;
 		}
 
 		.surname {
-			font-size: 5em;
+			font-size: 4.5em;
 		}
 
 		.job-headline {
-			font-size: 2.5em;
+			font-size: 1.75em;
 		}
 
 		.short-bio {
@@ -123,7 +123,7 @@
 		}
 
 		.job-headline-desc {
-			font-size: 1.5em;
+			font-size: 1.25em;
 		}
 	}
 

@@ -174,8 +174,8 @@
 				<div class="content-box" in:scale={{delay: 600, opacity: 0, duration: 1000}}>
 					<div class="content-header-three">
 						<div class="light">2022 - Present</div>
-						<div class="job-or-degree-title semi-bold">Financial Graphics Reporter</div>
-						<div>Reuters  •  Bangkok, Thailand</div>
+						<div class="job-or-degree-title semi-bold">Financial Graphics Journalist</div>
+						<div>Reuters  •  London, UK (2025 - Present)  •  Bangkok, Thailand (2022 - 2025)</div>
 					</div>
 					<div>
 						<ul>

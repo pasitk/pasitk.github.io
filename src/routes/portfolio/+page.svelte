@@ -22,6 +22,23 @@
 	<GalleryGroup>
 		<span slot="group-title">Interactive storytelling pages</span>
 		<span slot="items" class="content-box-flex column">
+			<GalleryItem parentWidth={innerWidth} parentHeight={innerHeight}>
+				<span slot="screenshot"><img src="https://www.reuters.com/graphics/AVIATION-SUSTAINABILITY/movadylljpa/cdn/images/SAF-sharecard.jpg" class="screenshot_img"></span>
+
+				<span slot="title"><a href="https://www.reuters.com/graphics/AVIATION-SUSTAINABILITY/movadylljpa/" target="_blank">The airline industry’s dirty secret: Clean jet fuel failures</a></span>
+
+				<span slot="subtitle">
+						Nearly 20 years after the first commercial flight powered by biofuels made the short hop from London to Amsterdam, the airline industry's plans to go green before regulators start penalising them are little more than a pipe dream, according to a Reuters review of all the sustainable aviation fuel (SAF) projects announced over the past 12 years.
+				</span>
+
+				<span slot="for" style="background-color: #F46917; padding-left:0.5em; padding-right:0.5em">
+					Reuters
+				</span>
+
+				<span slot="links">
+					<a href="https://www.reuters.com/graphics/AVIATION-SUSTAINABILITY/movadylljpa/" target="_blank">English</a>
+				</span>
+			</GalleryItem>
 			<GalleryItem parentWidth={innerWidth} parentHeight={innerHeight} awarded="award-2">
 				<span slot="award-name">
 					<ul>
@@ -172,6 +189,19 @@
 		<span slot="group-title">Data investigation with graphics</span>
 		<span slot="items" class="content-box-flex column">
 			<GalleryItem parentWidth={innerWidth} parentHeight={innerHeight}>
+				<span slot="screenshot"><img src="https://www.reuters.com/graphics/MYANMAR-CONFLICT/ATTACKS/klvymlqjxvg/chart.png"></span>
+
+				<span slot="title"><a href="https://www.reuters.com/world/asia-pacific/myanmar-junta-defies-quake-ceasefire-continue-deadly-attacks-data-shows-2025-04-25/" target="_blank">Exclusive: Myanmar junta defies quake ceasefire to continue deadly attacks, data shows</a></span>
+
+				<span slot="for" style="background-color: #F46917; padding-left:0.5em; padding-right:0.5em">
+					Reuters
+				</span>
+
+				<span slot="links">
+					<a href="https://www.reuters.com/world/asia-pacific/myanmar-junta-defies-quake-ceasefire-continue-deadly-attacks-data-shows-2025-04-25/" target="_blank">English</a>
+				</span>
+			</GalleryItem>
+			<GalleryItem parentWidth={innerWidth} parentHeight={innerHeight}>
 				<span slot="screenshot"><img src="https://www.reuters.com/graphics/ASIA-POPULATION/JAPAN-ROBOTS/klvymkrxrvg/chart.png"></span>
 
 				<span slot="title"><a href="https://www.reuters.com/technology/artificial-intelligence/ai-robots-may-hold-key-nursing-japans-ageing-population-2025-02-28/" target="_blank">AI robots may hold key to nursing Japan's ageing population</a></span>
@@ -295,6 +325,81 @@
 		<span slot="group-title">Graphics</span>
 		<span slot="items" class="content-box-flex column">
 			<GalleryItem parentWidth={innerWidth} parentHeight={innerHeight}>
+				<span slot="screenshot"><img src="https://www.reuters.com/graphics/THAILAND-POLITICS/jnvwbkbmxpw/graphic.jpg"></span>
+
+				<span slot="title">
+					<a href="https://www.reuters.com/world/asia-pacific/thai-prime-minister-removed-by-court-triggering-power-scramble-2025-08-29/" target="_blank">
+						Thai Prime Ministers from Shinawatra family and parties
+					</a>
+				</span>
+
+				<span slot="subtitle">
+					In the story "
+					<a class="subtitle_link" href="https://www.reuters.com/world/asia-pacific/thai-prime-minister-removed-by-court-triggering-power-scramble-2025-08-29/" target="_blank">
+						Thai prime minister removed by court, triggering power scramble
+					</a>
+					"
+				</span>
+
+				<span slot="for" style="background-color: #F46917; padding-left:0.5em; padding-right:0.5em">
+					Reuters
+				</span>
+
+				<span slot="links">
+					<a href="https://www.reuters.com/world/asia-pacific/thai-prime-minister-removed-by-court-triggering-power-scramble-2025-08-29/" target="_blank">English</a>
+				</span>
+			</GalleryItem>
+			<GalleryItem parentWidth={innerWidth} parentHeight={innerHeight}>
+				<span slot="screenshot"><img src="https://www.reuters.com/graphics/USA-TRUMP/TARIFFS/xmpjebonwvr/chart.png"></span>
+
+				<span slot="title">
+					<a href="https://www.reuters.com/world/americas/trump-hits-dozens-more-countries-with-steep-tariffs-2025-07-31/" target="_blank">
+						Trump tariffs on U.S. top trading partners (as of Aug. 1, 2025)
+					</a>
+				</span>
+
+				<span slot="subtitle">
+					In the story "
+					<a class="subtitle_link" href="https://www.reuters.com/world/americas/trump-hits-dozens-more-countries-with-steep-tariffs-2025-07-31/" target="_blank">
+						Trump hits dozens more countries with steep tariffs
+					</a>
+					"
+				</span>
+
+				<span slot="for" style="background-color: #F46917; padding-left:0.5em; padding-right:0.5em">
+					Reuters
+				</span>
+
+				<span slot="links">
+					<a href="https://www.reuters.com/world/americas/trump-hits-dozens-more-countries-with-steep-tariffs-2025-07-31/" target="_blank">English</a>
+				</span>
+			</GalleryItem>
+			<GalleryItem parentWidth={innerWidth} parentHeight={innerHeight}>
+				<span slot="screenshot"><img src="https://www.reuters.com/graphics/USA-TRUMP/TARIFFS-THAILAND/byvrxxenqve/chart.png"></span>
+
+				<span slot="title">
+					<a href="https://www.reuters.com/markets/asia/thailand-may-see-hit-up-8-bln-us-tariffs-says-official-2025-04-02/" target="_blank">
+						What do US and Thailand trade with each other?
+					</a>
+				</span>
+
+				<span slot="subtitle">
+					In the story "
+					<a class="subtitle_link" href="https://www.reuters.com/markets/asia/thailand-may-see-hit-up-8-bln-us-tariffs-says-official-2025-04-02/" target="_blank">
+						Thailand may lose up to $8 bln from potential US tariffs, says official
+					</a>
+					"
+				</span>
+
+				<span slot="for" style="background-color: #F46917; padding-left:0.5em; padding-right:0.5em">
+					Reuters
+				</span>
+
+				<span slot="links">
+					<a href="https://www.reuters.com/markets/asia/thailand-may-see-hit-up-8-bln-us-tariffs-says-official-2025-04-02/" target="_blank">English</a>
+				</span>
+			</GalleryItem>
+			<GalleryItem parentWidth={innerWidth} parentHeight={innerHeight}>
 				<span slot="screenshot"><img src="https://www.reuters.com/graphics/USA-TRUMP/TARIFFS/movawekqkva/graphic.jpg"></span>
 
 				<span slot="title">
@@ -342,31 +447,6 @@
 
 				<span slot="links">
 					<a href="https://www.reuters.com/technology/artificial-intelligence/how-ai-features-iphone-rival-smartphones-stack-up-2024-09-10/" target="_blank">English</a>
-				</span>
-			</GalleryItem>
-			<GalleryItem parentWidth={innerWidth} parentHeight={innerHeight}>
-				<span slot="screenshot"><img src="https://www.reuters.com/graphics/THAILAND-POLITICS/byvrqamxdpe/graphic.jpg"></span>
-
-				<span slot="title">
-					<a href="https://www.reuters.com/world/asia-pacific/baptism-fire-awaits-paetongtarn-thailand-gears-up-pm-vote-2024-08-16/" target="_blank">
-						Thai Prime Ministers from Shinawatra family and parties
-					</a>
-				</span>
-
-				<span slot="subtitle">
-					In the story "
-					<a class="subtitle_link" href="https://www.reuters.com/world/asia-pacific/baptism-fire-awaits-paetongtarn-thailand-gears-up-pm-vote-2024-08-16/" target="_blank">
-						Paetongtarn Shinawatra elected youngest Thai PM
-					</a>
-					"
-				</span>
-
-				<span slot="for" style="background-color: #F46917; padding-left:0.5em; padding-right:0.5em">
-					Reuters
-				</span>
-
-				<span slot="links">
-					<a href="https://www.reuters.com/world/asia-pacific/baptism-fire-awaits-paetongtarn-thailand-gears-up-pm-vote-2024-08-16/" target="_blank">English</a>
 				</span>
 			</GalleryItem>
 			<GalleryItem parentWidth={innerWidth} parentHeight={innerHeight}>
